@@ -1,0 +1,3958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weather_dataset version="2.0" source="EFREI-Weather-API">
+  <station id="FR-BOR-001" country="FR">
+    <name>Bordeaux Mérignac</name>
+    <coordinates lat="44.8333" lon="-0.7" altitude="47"/>
+    <hardware vendor="Vaisala" model="AWS-3000" since="2015-12-09"/>
+    <observations count="10">
+      <observation at="2026-05-24T01:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">3.3</measure>
+        <measure type="humidity" unit="%">82</measure>
+        <measure type="pressure" unit="hPa">990.1</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="48.1" direction="279"/>
+        <air_quality>
+          <pollutant name="PM2.5">20.7</pollutant>
+          <pollutant name="PM10">10.1</pollutant>
+          <pollutant name="NO2">17</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T06:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">3.2</measure>
+        <measure type="humidity" unit="%">72</measure>
+        <measure type="pressure" unit="hPa">998.9</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="56.5" direction="81"/>
+        <air_quality>
+          <pollutant name="PM2.5">12</pollutant>
+          <pollutant name="PM10">63</pollutant>
+          <pollutant name="NO2">10.6</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T10:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">26.4</measure>
+        <measure type="humidity" unit="%">73</measure>
+        <measure type="pressure" unit="hPa">998.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="2.8" direction="235"/>
+        <air_quality>
+          <pollutant name="PM2.5">6.3</pollutant>
+          <pollutant name="PM10">29.1</pollutant>
+          <pollutant name="NO2">39.6</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T12:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">-3.3</measure>
+        <measure type="humidity" unit="%">49</measure>
+        <measure type="pressure" unit="hPa">1023.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="64" direction="119"/>
+        <air_quality>
+          <pollutant name="PM2.5">29.7</pollutant>
+          <pollutant name="PM10">34.3</pollutant>
+          <pollutant name="NO2">25.4</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-24T14:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">17.5</measure>
+        <measure type="humidity" unit="%">45</measure>
+        <measure type="pressure" unit="hPa">1011.7</measure>
+        <measure type="precipitation" unit="mm">11.9</measure>
+        <wind speed="15.9" direction="236"/>
+        <air_quality>
+          <pollutant name="PM2.5">12.2</pollutant>
+          <pollutant name="PM10">31.3</pollutant>
+          <pollutant name="NO2">47.3</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T16:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">24.8</measure>
+        <measure type="humidity" unit="%">60</measure>
+        <measure type="pressure" unit="hPa">998.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="13.7" direction="290"/>
+        <air_quality>
+          <pollutant name="PM2.5">19.6</pollutant>
+          <pollutant name="PM10">73.8</pollutant>
+          <pollutant name="NO2">30.2</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T19:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">22.6</measure>
+        <measure type="humidity" unit="%">69</measure>
+        <measure type="pressure" unit="hPa">998.1</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="38" direction="298"/>
+        <air_quality>
+          <pollutant name="PM2.5">24.4</pollutant>
+          <pollutant name="PM10">14.5</pollutant>
+          <pollutant name="NO2">7.6</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T22:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">24.3</measure>
+        <measure type="humidity" unit="%">62</measure>
+        <measure type="pressure" unit="hPa">1014.8</measure>
+        <measure type="precipitation" unit="mm">6.4</measure>
+        <wind speed="25" direction="305"/>
+        <air_quality>
+          <pollutant name="PM2.5">39.2</pollutant>
+          <pollutant name="PM10">8.8</pollutant>
+          <pollutant name="NO2">44.6</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-25T00:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">5.9</measure>
+        <measure type="humidity" unit="%">45</measure>
+        <measure type="pressure" unit="hPa">1007.7</measure>
+        <measure type="precipitation" unit="mm">9.2</measure>
+        <wind speed="62" direction="134"/>
+        <air_quality>
+          <pollutant name="PM2.5">41.3</pollutant>
+          <pollutant name="PM10">70.7</pollutant>
+          <pollutant name="NO2">21.4</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T04:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">23.2</measure>
+        <measure type="humidity" unit="%">69</measure>
+        <measure type="pressure" unit="hPa">1032.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="60" direction="0"/>
+        <air_quality>
+          <pollutant name="PM2.5">42</pollutant>
+          <pollutant name="PM10">71.3</pollutant>
+          <pollutant name="NO2">50.7</pollutant>
+        </air_quality>
+      </observation>
+    </observations>
+  </station>
+  <station id="FR-PAR-002" country="FR">
+    <name>Paris Montsouris</name>
+    <coordinates lat="48.8214" lon="2.3375" altitude="75"/>
+    <hardware vendor="Davis Instruments" model="WS-2500" since="2024-02-03"/>
+    <observations count="10">
+      <observation at="2026-05-24T05:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">13</measure>
+        <measure type="humidity" unit="%">39</measure>
+        <measure type="pressure" unit="hPa">1033.9</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="34.6" direction="64"/>
+        <air_quality>
+          <pollutant name="PM2.5">23</pollutant>
+          <pollutant name="PM10">47.6</pollutant>
+          <pollutant name="NO2">19.6</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T08:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">21.4</measure>
+        <measure type="humidity" unit="%">60</measure>
+        <measure type="pressure" unit="hPa">1034.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="42.2" direction="224"/>
+        <air_quality>
+          <pollutant name="PM2.5">12.4</pollutant>
+          <pollutant name="PM10">32.3</pollutant>
+          <pollutant name="NO2">37.4</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T10:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">-2.4</measure>
+        <measure type="humidity" unit="%">75</measure>
+        <measure type="pressure" unit="hPa">987.9</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="4.4" direction="16"/>
+        <air_quality>
+          <pollutant name="PM2.5">14.7</pollutant>
+          <pollutant name="PM10">42.9</pollutant>
+          <pollutant name="NO2">34.7</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T15:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">24.9</measure>
+        <measure type="humidity" unit="%">47</measure>
+        <measure type="pressure" unit="hPa">989.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="42.8" direction="181"/>
+        <air_quality>
+          <pollutant name="PM2.5">31.3</pollutant>
+          <pollutant name="PM10">78.9</pollutant>
+          <pollutant name="NO2">10.4</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T17:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">4.2</measure>
+        <measure type="humidity" unit="%">47</measure>
+        <measure type="pressure" unit="hPa">1011.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="9.1" direction="93"/>
+        <air_quality>
+          <pollutant name="PM2.5">13.5</pollutant>
+          <pollutant name="PM10">74.5</pollutant>
+          <pollutant name="NO2">29.4</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T19:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">30.9</measure>
+        <measure type="humidity" unit="%">94</measure>
+        <measure type="pressure" unit="hPa">1022.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="15.4" direction="208"/>
+        <air_quality>
+          <pollutant name="PM2.5">40.9</pollutant>
+          <pollutant name="PM10">19.9</pollutant>
+          <pollutant name="NO2">5.1</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-25T00:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">5.6</measure>
+        <measure type="humidity" unit="%">79</measure>
+        <measure type="pressure" unit="hPa">1032.9</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="64.7" direction="284"/>
+        <air_quality>
+          <pollutant name="PM2.5">15.5</pollutant>
+          <pollutant name="PM10">77.7</pollutant>
+          <pollutant name="NO2">36.9</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-25T02:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">-3.1</measure>
+        <measure type="humidity" unit="%">65</measure>
+        <measure type="pressure" unit="hPa">1010.1</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="55.4" direction="80"/>
+        <air_quality>
+          <pollutant name="PM2.5">24.3</pollutant>
+          <pollutant name="PM10">69.3</pollutant>
+          <pollutant name="NO2">8.8</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T07:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">-0.6</measure>
+        <measure type="humidity" unit="%">91</measure>
+        <measure type="pressure" unit="hPa">1013.5</measure>
+        <measure type="precipitation" unit="mm">5.1</measure>
+        <wind speed="37.6" direction="20"/>
+        <air_quality>
+          <pollutant name="PM2.5">26.7</pollutant>
+          <pollutant name="PM10">30.8</pollutant>
+          <pollutant name="NO2">19.3</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T11:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">9.6</measure>
+        <measure type="humidity" unit="%">77</measure>
+        <measure type="pressure" unit="hPa">1017.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="29.7" direction="37"/>
+        <air_quality>
+          <pollutant name="PM2.5">29.1</pollutant>
+          <pollutant name="PM10">48.5</pollutant>
+          <pollutant name="NO2">10.5</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+    </observations>
+  </station>
+  <station id="FR-LYO-003" country="FR">
+    <name>Lyon Bron</name>
+    <coordinates lat="45.7264" lon="4.9416" altitude="197"/>
+    <hardware vendor="Gill Instruments" model="MetPak-II" since="2016-04-12"/>
+    <observations count="10">
+      <observation at="2026-05-24T02:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">0.8</measure>
+        <measure type="humidity" unit="%">88</measure>
+        <measure type="pressure" unit="hPa">1012.2</measure>
+        <measure type="precipitation" unit="mm">8</measure>
+        <wind speed="19.7" direction="334"/>
+        <air_quality>
+          <pollutant name="PM2.5">15.6</pollutant>
+          <pollutant name="PM10">55.8</pollutant>
+          <pollutant name="NO2">56.6</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-24T04:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">27.9</measure>
+        <measure type="humidity" unit="%">82</measure>
+        <measure type="pressure" unit="hPa">1012.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="17.7" direction="309"/>
+        <air_quality>
+          <pollutant name="PM2.5">17.4</pollutant>
+          <pollutant name="PM10">57.5</pollutant>
+          <pollutant name="NO2">51.9</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-24T06:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">-1.6</measure>
+        <measure type="humidity" unit="%">62</measure>
+        <measure type="pressure" unit="hPa">1026.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="2.9" direction="170"/>
+        <air_quality>
+          <pollutant name="PM2.5">9.8</pollutant>
+          <pollutant name="PM10">39.8</pollutant>
+          <pollutant name="NO2">43.8</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T08:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">30</measure>
+        <measure type="humidity" unit="%">79</measure>
+        <measure type="pressure" unit="hPa">1030.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="35.5" direction="189"/>
+        <air_quality>
+          <pollutant name="PM2.5">4.8</pollutant>
+          <pollutant name="PM10">34.3</pollutant>
+          <pollutant name="NO2">56.3</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T11:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">20.2</measure>
+        <measure type="humidity" unit="%">77</measure>
+        <measure type="pressure" unit="hPa">990.1</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="50.7" direction="208"/>
+        <air_quality>
+          <pollutant name="PM2.5">39.3</pollutant>
+          <pollutant name="PM10">78.3</pollutant>
+          <pollutant name="NO2">49.6</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T14:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">22.3</measure>
+        <measure type="humidity" unit="%">56</measure>
+        <measure type="pressure" unit="hPa">1024.1</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="26.8" direction="342"/>
+        <air_quality>
+          <pollutant name="PM2.5">9.7</pollutant>
+          <pollutant name="PM10">58.5</pollutant>
+          <pollutant name="NO2">26</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T17:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">2.4</measure>
+        <measure type="humidity" unit="%">93</measure>
+        <measure type="pressure" unit="hPa">1008</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="19.8" direction="116"/>
+        <air_quality>
+          <pollutant name="PM2.5">30.7</pollutant>
+          <pollutant name="PM10">36.7</pollutant>
+          <pollutant name="NO2">20.3</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-24T21:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">18.7</measure>
+        <measure type="humidity" unit="%">60</measure>
+        <measure type="pressure" unit="hPa">1019</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="54.8" direction="169"/>
+        <air_quality>
+          <pollutant name="PM2.5">10.5</pollutant>
+          <pollutant name="PM10">77.3</pollutant>
+          <pollutant name="NO2">19.6</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-25T01:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">22</measure>
+        <measure type="humidity" unit="%">55</measure>
+        <measure type="pressure" unit="hPa">1006.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="64" direction="59"/>
+        <air_quality>
+          <pollutant name="PM2.5">4.9</pollutant>
+          <pollutant name="PM10">39.4</pollutant>
+          <pollutant name="NO2">33.6</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-25T06:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">-2.4</measure>
+        <measure type="humidity" unit="%">77</measure>
+        <measure type="pressure" unit="hPa">1031</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="40.5" direction="339"/>
+        <air_quality>
+          <pollutant name="PM2.5">24.3</pollutant>
+          <pollutant name="PM10">56</pollutant>
+          <pollutant name="NO2">22.9</pollutant>
+        </air_quality>
+      </observation>
+    </observations>
+  </station>
+  <station id="FR-MAR-004" country="FR">
+    <name>Marseille Marignane</name>
+    <coordinates lat="43.45" lon="5.2333" altitude="9"/>
+    <hardware vendor="Vaisala" model="AWS-2700" since="2021-11-24"/>
+    <observations count="10">
+      <observation at="2026-05-24T01:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">17.8</measure>
+        <measure type="humidity" unit="%">54</measure>
+        <measure type="pressure" unit="hPa">1005.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="54.2" direction="155"/>
+        <air_quality>
+          <pollutant name="PM2.5">21.1</pollutant>
+          <pollutant name="PM10">49.8</pollutant>
+          <pollutant name="NO2">41</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T06:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">20</measure>
+        <measure type="humidity" unit="%">67</measure>
+        <measure type="pressure" unit="hPa">1008.7</measure>
+        <measure type="precipitation" unit="mm">3.5</measure>
+        <wind speed="58.6" direction="86"/>
+        <air_quality>
+          <pollutant name="PM2.5">17.1</pollutant>
+          <pollutant name="PM10">66.9</pollutant>
+          <pollutant name="NO2">46.3</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T09:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">0.5</measure>
+        <measure type="humidity" unit="%">37</measure>
+        <measure type="pressure" unit="hPa">997.2</measure>
+        <measure type="precipitation" unit="mm">10.6</measure>
+        <wind speed="30.9" direction="37"/>
+        <air_quality>
+          <pollutant name="PM2.5">11.2</pollutant>
+          <pollutant name="PM10">58.1</pollutant>
+          <pollutant name="NO2">32.2</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T11:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">28</measure>
+        <measure type="humidity" unit="%">90</measure>
+        <measure type="pressure" unit="hPa">1023.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="6.9" direction="217"/>
+        <air_quality>
+          <pollutant name="PM2.5">36.8</pollutant>
+          <pollutant name="PM10">58.1</pollutant>
+          <pollutant name="NO2">30.6</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T16:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">-0.1</measure>
+        <measure type="humidity" unit="%">64</measure>
+        <measure type="pressure" unit="hPa">1018.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="64.2" direction="304"/>
+        <air_quality>
+          <pollutant name="PM2.5">28.7</pollutant>
+          <pollutant name="PM10">59.8</pollutant>
+          <pollutant name="NO2">32.8</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T21:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">11.7</measure>
+        <measure type="humidity" unit="%">83</measure>
+        <measure type="pressure" unit="hPa">997.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="41.4" direction="266"/>
+        <air_quality>
+          <pollutant name="PM2.5">6.3</pollutant>
+          <pollutant name="PM10">28.6</pollutant>
+          <pollutant name="NO2">19.9</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T00:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">0.6</measure>
+        <measure type="humidity" unit="%">59</measure>
+        <measure type="pressure" unit="hPa">1019.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="45.9" direction="32"/>
+        <air_quality>
+          <pollutant name="PM2.5">20.5</pollutant>
+          <pollutant name="PM10">22.9</pollutant>
+          <pollutant name="NO2">28.1</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-25T05:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">-4.8</measure>
+        <measure type="humidity" unit="%">57</measure>
+        <measure type="pressure" unit="hPa">999.9</measure>
+        <measure type="precipitation" unit="mm">8.8</measure>
+        <wind speed="25.3" direction="214"/>
+        <air_quality>
+          <pollutant name="PM2.5">40.7</pollutant>
+          <pollutant name="PM10">43.2</pollutant>
+          <pollutant name="NO2">20</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T10:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">7.4</measure>
+        <measure type="humidity" unit="%">78</measure>
+        <measure type="pressure" unit="hPa">1024.9</measure>
+        <measure type="precipitation" unit="mm">11.8</measure>
+        <wind speed="47.1" direction="239"/>
+        <air_quality>
+          <pollutant name="PM2.5">4.1</pollutant>
+          <pollutant name="PM10">36.4</pollutant>
+          <pollutant name="NO2">36</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T15:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">0</measure>
+        <measure type="humidity" unit="%">64</measure>
+        <measure type="pressure" unit="hPa">994.1</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="16.9" direction="167"/>
+        <air_quality>
+          <pollutant name="PM2.5">16.7</pollutant>
+          <pollutant name="PM10">62.8</pollutant>
+          <pollutant name="NO2">25.9</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+    </observations>
+  </station>
+  <station id="FR-TOU-005" country="FR">
+    <name>Toulouse Blagnac</name>
+    <coordinates lat="43.6294" lon="1.3638" altitude="152"/>
+    <hardware vendor="Vaisala" model="AWS-2700" since="2015-12-18"/>
+    <observations count="10">
+      <observation at="2026-05-24T00:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">32</measure>
+        <measure type="humidity" unit="%">57</measure>
+        <measure type="pressure" unit="hPa">996.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="4.5" direction="333"/>
+        <air_quality>
+          <pollutant name="PM2.5">4.3</pollutant>
+          <pollutant name="PM10">25.8</pollutant>
+          <pollutant name="NO2">51.2</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T03:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">12.5</measure>
+        <measure type="humidity" unit="%">42</measure>
+        <measure type="pressure" unit="hPa">1013.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="14.2" direction="358"/>
+        <air_quality>
+          <pollutant name="PM2.5">18.5</pollutant>
+          <pollutant name="PM10">51.6</pollutant>
+          <pollutant name="NO2">58</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T07:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">-1</measure>
+        <measure type="humidity" unit="%">36</measure>
+        <measure type="pressure" unit="hPa">1031.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="37.4" direction="192"/>
+        <air_quality>
+          <pollutant name="PM2.5">27.9</pollutant>
+          <pollutant name="PM10">67.8</pollutant>
+          <pollutant name="NO2">18.4</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T09:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">7.8</measure>
+        <measure type="humidity" unit="%">62</measure>
+        <measure type="pressure" unit="hPa">1018.1</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="4.5" direction="331"/>
+        <air_quality>
+          <pollutant name="PM2.5">7.4</pollutant>
+          <pollutant name="PM10">77.2</pollutant>
+          <pollutant name="NO2">40</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T14:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">1.5</measure>
+        <measure type="humidity" unit="%">68</measure>
+        <measure type="pressure" unit="hPa">1033.3</measure>
+        <measure type="precipitation" unit="mm">5.6</measure>
+        <wind speed="17.6" direction="275"/>
+        <air_quality>
+          <pollutant name="PM2.5">14.3</pollutant>
+          <pollutant name="PM10">69.3</pollutant>
+          <pollutant name="NO2">50.7</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-24T19:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">4</measure>
+        <measure type="humidity" unit="%">64</measure>
+        <measure type="pressure" unit="hPa">1013.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="43.4" direction="172"/>
+        <air_quality>
+          <pollutant name="PM2.5">38.7</pollutant>
+          <pollutant name="PM10">21.1</pollutant>
+          <pollutant name="NO2">16.7</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T23:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">27.6</measure>
+        <measure type="humidity" unit="%">79</measure>
+        <measure type="pressure" unit="hPa">1029</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="36.1" direction="264"/>
+        <air_quality>
+          <pollutant name="PM2.5">23.5</pollutant>
+          <pollutant name="PM10">62.6</pollutant>
+          <pollutant name="NO2">43</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-25T01:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">-1.6</measure>
+        <measure type="humidity" unit="%">49</measure>
+        <measure type="pressure" unit="hPa">1005.2</measure>
+        <measure type="precipitation" unit="mm">5.7</measure>
+        <wind speed="15.8" direction="339"/>
+        <air_quality>
+          <pollutant name="PM2.5">17.4</pollutant>
+          <pollutant name="PM10">79.8</pollutant>
+          <pollutant name="NO2">35.3</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-25T05:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">6.3</measure>
+        <measure type="humidity" unit="%">49</measure>
+        <measure type="pressure" unit="hPa">991</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="12.5" direction="61"/>
+        <air_quality>
+          <pollutant name="PM2.5">11</pollutant>
+          <pollutant name="PM10">61.2</pollutant>
+          <pollutant name="NO2">20.2</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T08:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">6</measure>
+        <measure type="humidity" unit="%">58</measure>
+        <measure type="pressure" unit="hPa">994</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="0.9" direction="273"/>
+        <air_quality>
+          <pollutant name="PM2.5">4.9</pollutant>
+          <pollutant name="PM10">11.9</pollutant>
+          <pollutant name="NO2">21.1</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+    </observations>
+  </station>
+  <station id="FR-STR-006" country="FR">
+    <name>Strasbourg Entzheim</name>
+    <coordinates lat="48.55" lon="7.6333" altitude="154"/>
+    <hardware vendor="Vaisala" model="AWS-3000" since="2024-05-16"/>
+    <observations count="10">
+      <observation at="2026-05-24T03:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">11.3</measure>
+        <measure type="humidity" unit="%">46</measure>
+        <measure type="pressure" unit="hPa">1033.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="16.4" direction="244"/>
+        <air_quality>
+          <pollutant name="PM2.5">5.7</pollutant>
+          <pollutant name="PM10">43.4</pollutant>
+          <pollutant name="NO2">36.7</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T06:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">25</measure>
+        <measure type="humidity" unit="%">95</measure>
+        <measure type="pressure" unit="hPa">1000.2</measure>
+        <measure type="precipitation" unit="mm">5.1</measure>
+        <wind speed="64.6" direction="60"/>
+        <air_quality>
+          <pollutant name="PM2.5">36.2</pollutant>
+          <pollutant name="PM10">24.2</pollutant>
+          <pollutant name="NO2">33.7</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T10:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">26.8</measure>
+        <measure type="humidity" unit="%">62</measure>
+        <measure type="pressure" unit="hPa">1000.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="40.4" direction="312"/>
+        <air_quality>
+          <pollutant name="PM2.5">29.3</pollutant>
+          <pollutant name="PM10">27.1</pollutant>
+          <pollutant name="NO2">9.5</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T12:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">0.8</measure>
+        <measure type="humidity" unit="%">61</measure>
+        <measure type="pressure" unit="hPa">1007.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="38.6" direction="149"/>
+        <air_quality>
+          <pollutant name="PM2.5">15.1</pollutant>
+          <pollutant name="PM10">28.4</pollutant>
+          <pollutant name="NO2">52.3</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T16:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">24.1</measure>
+        <measure type="humidity" unit="%">75</measure>
+        <measure type="pressure" unit="hPa">1014.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="52.3" direction="101"/>
+        <air_quality>
+          <pollutant name="PM2.5">41.2</pollutant>
+          <pollutant name="PM10">67.5</pollutant>
+          <pollutant name="NO2">8.9</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-24T20:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">11.2</measure>
+        <measure type="humidity" unit="%">64</measure>
+        <measure type="pressure" unit="hPa">1019.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="45.5" direction="139"/>
+        <air_quality>
+          <pollutant name="PM2.5">28.1</pollutant>
+          <pollutant name="PM10">72</pollutant>
+          <pollutant name="NO2">45.4</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T22:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">3.5</measure>
+        <measure type="humidity" unit="%">78</measure>
+        <measure type="pressure" unit="hPa">1026.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="37.4" direction="10"/>
+        <air_quality>
+          <pollutant name="PM2.5">27.2</pollutant>
+          <pollutant name="PM10">62.9</pollutant>
+          <pollutant name="NO2">14.6</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-25T01:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">31.9</measure>
+        <measure type="humidity" unit="%">62</measure>
+        <measure type="pressure" unit="hPa">1016.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="32" direction="46"/>
+        <air_quality>
+          <pollutant name="PM2.5">31.1</pollutant>
+          <pollutant name="PM10">69.8</pollutant>
+          <pollutant name="NO2">23.1</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-25T06:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">25.1</measure>
+        <measure type="humidity" unit="%">70</measure>
+        <measure type="pressure" unit="hPa">986.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="5.7" direction="129"/>
+        <air_quality>
+          <pollutant name="PM2.5">39.3</pollutant>
+          <pollutant name="PM10">67.4</pollutant>
+          <pollutant name="NO2">5.1</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-25T08:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">1.9</measure>
+        <measure type="humidity" unit="%">58</measure>
+        <measure type="pressure" unit="hPa">1016.1</measure>
+        <measure type="precipitation" unit="mm">2.5</measure>
+        <wind speed="32.4" direction="226"/>
+        <air_quality>
+          <pollutant name="PM2.5">8.5</pollutant>
+          <pollutant name="PM10">28.7</pollutant>
+          <pollutant name="NO2">53.4</pollutant>
+        </air_quality>
+      </observation>
+    </observations>
+  </station>
+  <station id="FR-NAN-007" country="FR">
+    <name>Nantes Bouguenais</name>
+    <coordinates lat="47.15" lon="-1.6166" altitude="27"/>
+    <hardware vendor="Davis Instruments" model="Vue-7000" since="2018-12-06"/>
+    <observations count="10">
+      <observation at="2026-05-24T02:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">15.4</measure>
+        <measure type="humidity" unit="%">70</measure>
+        <measure type="pressure" unit="hPa">1005.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="14.6" direction="58"/>
+        <air_quality>
+          <pollutant name="PM2.5">23.9</pollutant>
+          <pollutant name="PM10">59.6</pollutant>
+          <pollutant name="NO2">33</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-24T07:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">31.3</measure>
+        <measure type="humidity" unit="%">50</measure>
+        <measure type="pressure" unit="hPa">1007.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="9.4" direction="97"/>
+        <air_quality>
+          <pollutant name="PM2.5">39.3</pollutant>
+          <pollutant name="PM10">27.9</pollutant>
+          <pollutant name="NO2">48.5</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T11:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">25.4</measure>
+        <measure type="humidity" unit="%">53</measure>
+        <measure type="pressure" unit="hPa">1021.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="54.4" direction="296"/>
+        <air_quality>
+          <pollutant name="PM2.5">21.8</pollutant>
+          <pollutant name="PM10">42.9</pollutant>
+          <pollutant name="NO2">23.3</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T15:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">27.2</measure>
+        <measure type="humidity" unit="%">79</measure>
+        <measure type="pressure" unit="hPa">996.9</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="24.9" direction="210"/>
+        <air_quality>
+          <pollutant name="PM2.5">34.3</pollutant>
+          <pollutant name="PM10">58.8</pollutant>
+          <pollutant name="NO2">49.6</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T20:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">30.7</measure>
+        <measure type="humidity" unit="%">43</measure>
+        <measure type="pressure" unit="hPa">1010.1</measure>
+        <measure type="precipitation" unit="mm">5.3</measure>
+        <wind speed="38.4" direction="51"/>
+        <air_quality>
+          <pollutant name="PM2.5">41.2</pollutant>
+          <pollutant name="PM10">9.1</pollutant>
+          <pollutant name="NO2">12.9</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T01:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">23.9</measure>
+        <measure type="humidity" unit="%">51</measure>
+        <measure type="pressure" unit="hPa">1001.9</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="45" direction="332"/>
+        <air_quality>
+          <pollutant name="PM2.5">16.8</pollutant>
+          <pollutant name="PM10">56.6</pollutant>
+          <pollutant name="NO2">34.3</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-25T03:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">17.8</measure>
+        <measure type="humidity" unit="%">50</measure>
+        <measure type="pressure" unit="hPa">1016.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="59.9" direction="116"/>
+        <air_quality>
+          <pollutant name="PM2.5">34.9</pollutant>
+          <pollutant name="PM10">58.7</pollutant>
+          <pollutant name="NO2">10.5</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-25T05:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">-3.3</measure>
+        <measure type="humidity" unit="%">85</measure>
+        <measure type="pressure" unit="hPa">987.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="23.3" direction="220"/>
+        <air_quality>
+          <pollutant name="PM2.5">25.3</pollutant>
+          <pollutant name="PM10">48.7</pollutant>
+          <pollutant name="NO2">48.6</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T07:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">17.6</measure>
+        <measure type="humidity" unit="%">59</measure>
+        <measure type="pressure" unit="hPa">1016</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="15.7" direction="298"/>
+        <air_quality>
+          <pollutant name="PM2.5">22.4</pollutant>
+          <pollutant name="PM10">26.3</pollutant>
+          <pollutant name="NO2">19</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-25T11:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">20.1</measure>
+        <measure type="humidity" unit="%">45</measure>
+        <measure type="pressure" unit="hPa">988.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="61.4" direction="300"/>
+        <air_quality>
+          <pollutant name="PM2.5">43.4</pollutant>
+          <pollutant name="PM10">57.7</pollutant>
+          <pollutant name="NO2">30.1</pollutant>
+        </air_quality>
+      </observation>
+    </observations>
+  </station>
+  <station id="FR-LIL-008" country="FR">
+    <name>Lille Lesquin</name>
+    <coordinates lat="50.5666" lon="3.1" altitude="47"/>
+    <hardware vendor="Vaisala" model="AWS-2700" since="2016-04-13"/>
+    <observations count="10">
+      <observation at="2026-05-24T04:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">8.3</measure>
+        <measure type="humidity" unit="%">53</measure>
+        <measure type="pressure" unit="hPa">1034.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="19.2" direction="337"/>
+        <air_quality>
+          <pollutant name="PM2.5">41.2</pollutant>
+          <pollutant name="PM10">61.7</pollutant>
+          <pollutant name="NO2">50.8</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T08:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">3.1</measure>
+        <measure type="humidity" unit="%">47</measure>
+        <measure type="pressure" unit="hPa">1016</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="44.1" direction="337"/>
+        <air_quality>
+          <pollutant name="PM2.5">40.9</pollutant>
+          <pollutant name="PM10">54.5</pollutant>
+          <pollutant name="NO2">22</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T12:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">22.1</measure>
+        <measure type="humidity" unit="%">40</measure>
+        <measure type="pressure" unit="hPa">1030.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="21.2" direction="212"/>
+        <air_quality>
+          <pollutant name="PM2.5">8.6</pollutant>
+          <pollutant name="PM10">46.8</pollutant>
+          <pollutant name="NO2">58.4</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T16:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">28.8</measure>
+        <measure type="humidity" unit="%">95</measure>
+        <measure type="pressure" unit="hPa">1009.1</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="52.4" direction="173"/>
+        <air_quality>
+          <pollutant name="PM2.5">8.9</pollutant>
+          <pollutant name="PM10">77.6</pollutant>
+          <pollutant name="NO2">52.3</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T18:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">24.3</measure>
+        <measure type="humidity" unit="%">35</measure>
+        <measure type="pressure" unit="hPa">998.2</measure>
+        <measure type="precipitation" unit="mm">8.1</measure>
+        <wind speed="8" direction="188"/>
+        <air_quality>
+          <pollutant name="PM2.5">19</pollutant>
+          <pollutant name="PM10">54</pollutant>
+          <pollutant name="NO2">25.4</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T20:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">17.9</measure>
+        <measure type="humidity" unit="%">95</measure>
+        <measure type="pressure" unit="hPa">1013.1</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="59.5" direction="113"/>
+        <air_quality>
+          <pollutant name="PM2.5">41.2</pollutant>
+          <pollutant name="PM10">29.8</pollutant>
+          <pollutant name="NO2">27.5</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T22:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">6.3</measure>
+        <measure type="humidity" unit="%">66</measure>
+        <measure type="pressure" unit="hPa">990.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="15.3" direction="275"/>
+        <air_quality>
+          <pollutant name="PM2.5">22.1</pollutant>
+          <pollutant name="PM10">56.3</pollutant>
+          <pollutant name="NO2">45.9</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T03:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">19.2</measure>
+        <measure type="humidity" unit="%">88</measure>
+        <measure type="pressure" unit="hPa">1009.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="26.5" direction="143"/>
+        <air_quality>
+          <pollutant name="PM2.5">18.6</pollutant>
+          <pollutant name="PM10">39.9</pollutant>
+          <pollutant name="NO2">57.3</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T07:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">15.1</measure>
+        <measure type="humidity" unit="%">76</measure>
+        <measure type="pressure" unit="hPa">1002.9</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="25.9" direction="97"/>
+        <air_quality>
+          <pollutant name="PM2.5">6.9</pollutant>
+          <pollutant name="PM10">23.3</pollutant>
+          <pollutant name="NO2">40.2</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T11:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">4</measure>
+        <measure type="humidity" unit="%">43</measure>
+        <measure type="pressure" unit="hPa">1024.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="13.3" direction="283"/>
+        <air_quality>
+          <pollutant name="PM2.5">12.1</pollutant>
+          <pollutant name="PM10">70.6</pollutant>
+          <pollutant name="NO2">23.1</pollutant>
+        </air_quality>
+      </observation>
+    </observations>
+  </station>
+  <station id="ES-MAD-009" country="ES">
+    <name>Madrid Barajas</name>
+    <coordinates lat="40.4719" lon="3.5626" altitude="609"/>
+    <hardware vendor="Davis Instruments" model="WS-2500" since="2017-09-09"/>
+    <observations count="10">
+      <observation at="2026-05-24T06:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">1.5</measure>
+        <measure type="humidity" unit="%">77</measure>
+        <measure type="pressure" unit="hPa">1028.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="8.6" direction="183"/>
+        <air_quality>
+          <pollutant name="PM2.5">3.7</pollutant>
+          <pollutant name="PM10">27.1</pollutant>
+          <pollutant name="NO2">12</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T08:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">12.6</measure>
+        <measure type="humidity" unit="%">84</measure>
+        <measure type="pressure" unit="hPa">1003.1</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="38.6" direction="231"/>
+        <air_quality>
+          <pollutant name="PM2.5">33.5</pollutant>
+          <pollutant name="PM10">73.4</pollutant>
+          <pollutant name="NO2">41.2</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T10:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">-2.7</measure>
+        <measure type="humidity" unit="%">65</measure>
+        <measure type="pressure" unit="hPa">1027.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="27.7" direction="55"/>
+        <air_quality>
+          <pollutant name="PM2.5">40.8</pollutant>
+          <pollutant name="PM10">31.2</pollutant>
+          <pollutant name="NO2">13.2</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-24T14:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">9.1</measure>
+        <measure type="humidity" unit="%">73</measure>
+        <measure type="pressure" unit="hPa">1011.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="29.5" direction="309"/>
+        <air_quality>
+          <pollutant name="PM2.5">38.8</pollutant>
+          <pollutant name="PM10">54.9</pollutant>
+          <pollutant name="NO2">47.3</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-24T19:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">27.9</measure>
+        <measure type="humidity" unit="%">61</measure>
+        <measure type="pressure" unit="hPa">1001.9</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="29.5" direction="212"/>
+        <air_quality>
+          <pollutant name="PM2.5">30.9</pollutant>
+          <pollutant name="PM10">34.9</pollutant>
+          <pollutant name="NO2">13.4</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T21:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">25.8</measure>
+        <measure type="humidity" unit="%">40</measure>
+        <measure type="pressure" unit="hPa">1006.6</measure>
+        <measure type="precipitation" unit="mm">6.7</measure>
+        <wind speed="48.4" direction="190"/>
+        <air_quality>
+          <pollutant name="PM2.5">43.2</pollutant>
+          <pollutant name="PM10">48.4</pollutant>
+          <pollutant name="NO2">41.9</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-25T02:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">27.1</measure>
+        <measure type="humidity" unit="%">81</measure>
+        <measure type="pressure" unit="hPa">987.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="18.7" direction="159"/>
+        <air_quality>
+          <pollutant name="PM2.5">9.5</pollutant>
+          <pollutant name="PM10">42.7</pollutant>
+          <pollutant name="NO2">51.6</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-25T04:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">23.2</measure>
+        <measure type="humidity" unit="%">71</measure>
+        <measure type="pressure" unit="hPa">996.3</measure>
+        <measure type="precipitation" unit="mm">9.8</measure>
+        <wind speed="27.9" direction="287"/>
+        <air_quality>
+          <pollutant name="PM2.5">31.3</pollutant>
+          <pollutant name="PM10">48.1</pollutant>
+          <pollutant name="NO2">38.5</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T07:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">5.1</measure>
+        <measure type="humidity" unit="%">83</measure>
+        <measure type="pressure" unit="hPa">1000.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="22.1" direction="3"/>
+        <air_quality>
+          <pollutant name="PM2.5">9</pollutant>
+          <pollutant name="PM10">55.3</pollutant>
+          <pollutant name="NO2">8.8</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T10:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">8.9</measure>
+        <measure type="humidity" unit="%">64</measure>
+        <measure type="pressure" unit="hPa">1002</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="24.1" direction="166"/>
+        <air_quality>
+          <pollutant name="PM2.5">40.1</pollutant>
+          <pollutant name="PM10">19.2</pollutant>
+          <pollutant name="NO2">46.5</pollutant>
+        </air_quality>
+      </observation>
+    </observations>
+  </station>
+  <station id="ES-BAR-010" country="ES">
+    <name>Barcelona El Prat</name>
+    <coordinates lat="41.2974" lon="2.0833" altitude="4"/>
+    <hardware vendor="Vaisala" model="AWS-2700" since="2021-08-20"/>
+    <observations count="10">
+      <observation at="2026-05-24T03:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">10.3</measure>
+        <measure type="humidity" unit="%">48</measure>
+        <measure type="pressure" unit="hPa">1022.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="7.4" direction="220"/>
+        <air_quality>
+          <pollutant name="PM2.5">31.5</pollutant>
+          <pollutant name="PM10">50.7</pollutant>
+          <pollutant name="NO2">34</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T06:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">9.6</measure>
+        <measure type="humidity" unit="%">73</measure>
+        <measure type="pressure" unit="hPa">987.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="13.3" direction="108"/>
+        <air_quality>
+          <pollutant name="PM2.5">16.8</pollutant>
+          <pollutant name="PM10">8.6</pollutant>
+          <pollutant name="NO2">46.1</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T11:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">14.7</measure>
+        <measure type="humidity" unit="%">49</measure>
+        <measure type="pressure" unit="hPa">1010</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="54.2" direction="181"/>
+        <air_quality>
+          <pollutant name="PM2.5">39.2</pollutant>
+          <pollutant name="PM10">11</pollutant>
+          <pollutant name="NO2">6</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T16:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">16.2</measure>
+        <measure type="humidity" unit="%">80</measure>
+        <measure type="pressure" unit="hPa">1017</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="18.8" direction="207"/>
+        <air_quality>
+          <pollutant name="PM2.5">16.6</pollutant>
+          <pollutant name="PM10">65.7</pollutant>
+          <pollutant name="NO2">39</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T21:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">26.2</measure>
+        <measure type="humidity" unit="%">50</measure>
+        <measure type="pressure" unit="hPa">1006.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="26" direction="40"/>
+        <air_quality>
+          <pollutant name="PM2.5">12.3</pollutant>
+          <pollutant name="PM10">64.1</pollutant>
+          <pollutant name="NO2">9.2</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T01:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">8</measure>
+        <measure type="humidity" unit="%">87</measure>
+        <measure type="pressure" unit="hPa">1017.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="9.6" direction="52"/>
+        <air_quality>
+          <pollutant name="PM2.5">11.3</pollutant>
+          <pollutant name="PM10">51.4</pollutant>
+          <pollutant name="NO2">46.8</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T06:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">12.2</measure>
+        <measure type="humidity" unit="%">71</measure>
+        <measure type="pressure" unit="hPa">1023</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="29.2" direction="289"/>
+        <air_quality>
+          <pollutant name="PM2.5">39.3</pollutant>
+          <pollutant name="PM10">53.2</pollutant>
+          <pollutant name="NO2">13.3</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-25T11:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">18.4</measure>
+        <measure type="humidity" unit="%">85</measure>
+        <measure type="pressure" unit="hPa">998.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="3.7" direction="259"/>
+        <air_quality>
+          <pollutant name="PM2.5">22.4</pollutant>
+          <pollutant name="PM10">10.7</pollutant>
+          <pollutant name="NO2">25.3</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T13:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">17.8</measure>
+        <measure type="humidity" unit="%">67</measure>
+        <measure type="pressure" unit="hPa">1004.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="37.7" direction="21"/>
+        <air_quality>
+          <pollutant name="PM2.5">16.5</pollutant>
+          <pollutant name="PM10">42.2</pollutant>
+          <pollutant name="NO2">13.3</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-25T15:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">25</measure>
+        <measure type="humidity" unit="%">88</measure>
+        <measure type="pressure" unit="hPa">1002.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="46.4" direction="258"/>
+        <air_quality>
+          <pollutant name="PM2.5">44.6</pollutant>
+          <pollutant name="PM10">45.7</pollutant>
+          <pollutant name="NO2">38.5</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+    </observations>
+  </station>
+  <station id="ES-SEV-011" country="ES">
+    <name>Sevilla San Pablo</name>
+    <coordinates lat="37.418" lon="-5.8931" altitude="34"/>
+    <hardware vendor="Vaisala" model="AWS-2700" since="2021-06-22"/>
+    <observations count="10">
+      <observation at="2026-05-24T04:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">-3.1</measure>
+        <measure type="humidity" unit="%">75</measure>
+        <measure type="pressure" unit="hPa">1017.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="4.3" direction="48"/>
+        <air_quality>
+          <pollutant name="PM2.5">33.4</pollutant>
+          <pollutant name="PM10">55.3</pollutant>
+          <pollutant name="NO2">54.8</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T06:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">16.6</measure>
+        <measure type="humidity" unit="%">44</measure>
+        <measure type="pressure" unit="hPa">1030.8</measure>
+        <measure type="precipitation" unit="mm">4.8</measure>
+        <wind speed="20.2" direction="335"/>
+        <air_quality>
+          <pollutant name="PM2.5">32.8</pollutant>
+          <pollutant name="PM10">14.1</pollutant>
+          <pollutant name="NO2">35.7</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T08:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">18.9</measure>
+        <measure type="humidity" unit="%">62</measure>
+        <measure type="pressure" unit="hPa">1010.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="1.2" direction="158"/>
+        <air_quality>
+          <pollutant name="PM2.5">12</pollutant>
+          <pollutant name="PM10">76.2</pollutant>
+          <pollutant name="NO2">31.7</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T11:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">-2.1</measure>
+        <measure type="humidity" unit="%">89</measure>
+        <measure type="pressure" unit="hPa">1024.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="33" direction="276"/>
+        <air_quality>
+          <pollutant name="PM2.5">30.8</pollutant>
+          <pollutant name="PM10">71.1</pollutant>
+          <pollutant name="NO2">39</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T14:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">1.7</measure>
+        <measure type="humidity" unit="%">79</measure>
+        <measure type="pressure" unit="hPa">1023.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="52.6" direction="84"/>
+        <air_quality>
+          <pollutant name="PM2.5">31.4</pollutant>
+          <pollutant name="PM10">25.1</pollutant>
+          <pollutant name="NO2">29.4</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T17:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">14.8</measure>
+        <measure type="humidity" unit="%">54</measure>
+        <measure type="pressure" unit="hPa">1033.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="51" direction="99"/>
+        <air_quality>
+          <pollutant name="PM2.5">22.4</pollutant>
+          <pollutant name="PM10">28.3</pollutant>
+          <pollutant name="NO2">26</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T20:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">24.6</measure>
+        <measure type="humidity" unit="%">43</measure>
+        <measure type="pressure" unit="hPa">1028.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="3.4" direction="246"/>
+        <air_quality>
+          <pollutant name="PM2.5">32.9</pollutant>
+          <pollutant name="PM10">45.1</pollutant>
+          <pollutant name="NO2">11.9</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T00:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">11.6</measure>
+        <measure type="humidity" unit="%">67</measure>
+        <measure type="pressure" unit="hPa">992.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="28.4" direction="113"/>
+        <air_quality>
+          <pollutant name="PM2.5">20.4</pollutant>
+          <pollutant name="PM10">36.5</pollutant>
+          <pollutant name="NO2">25.6</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T04:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">3.3</measure>
+        <measure type="humidity" unit="%">55</measure>
+        <measure type="pressure" unit="hPa">1031.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="54.5" direction="332"/>
+        <air_quality>
+          <pollutant name="PM2.5">15</pollutant>
+          <pollutant name="PM10">67.7</pollutant>
+          <pollutant name="NO2">43.3</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-25T09:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">17.8</measure>
+        <measure type="humidity" unit="%">92</measure>
+        <measure type="pressure" unit="hPa">989</measure>
+        <measure type="precipitation" unit="mm">8.8</measure>
+        <wind speed="16.6" direction="76"/>
+        <air_quality>
+          <pollutant name="PM2.5">20.8</pollutant>
+          <pollutant name="PM10">63.9</pollutant>
+          <pollutant name="NO2">18.1</pollutant>
+        </air_quality>
+      </observation>
+    </observations>
+  </station>
+  <station id="PT-LIS-012" country="PT">
+    <name>Lisboa Portela</name>
+    <coordinates lat="38.7813" lon="-9.1359" altitude="114"/>
+    <hardware vendor="Vaisala" model="AWS-2700" since="2024-08-03"/>
+    <observations count="10">
+      <observation at="2026-05-24T00:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">26</measure>
+        <measure type="humidity" unit="%">66</measure>
+        <measure type="pressure" unit="hPa">1014.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="1.1" direction="263"/>
+        <air_quality>
+          <pollutant name="PM2.5">21</pollutant>
+          <pollutant name="PM10">52.3</pollutant>
+          <pollutant name="NO2">18.2</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T02:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">14.4</measure>
+        <measure type="humidity" unit="%">58</measure>
+        <measure type="pressure" unit="hPa">988.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="34.2" direction="259"/>
+        <air_quality>
+          <pollutant name="PM2.5">19.4</pollutant>
+          <pollutant name="PM10">41.8</pollutant>
+          <pollutant name="NO2">40</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-24T04:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">8.2</measure>
+        <measure type="humidity" unit="%">39</measure>
+        <measure type="pressure" unit="hPa">1002.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="47.6" direction="321"/>
+        <air_quality>
+          <pollutant name="PM2.5">27.4</pollutant>
+          <pollutant name="PM10">62.5</pollutant>
+          <pollutant name="NO2">12.3</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T07:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">25.7</measure>
+        <measure type="humidity" unit="%">78</measure>
+        <measure type="pressure" unit="hPa">1008.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="45.2" direction="323"/>
+        <air_quality>
+          <pollutant name="PM2.5">8.7</pollutant>
+          <pollutant name="PM10">59.6</pollutant>
+          <pollutant name="NO2">56.9</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-24T10:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">-3.4</measure>
+        <measure type="humidity" unit="%">47</measure>
+        <measure type="pressure" unit="hPa">1029.3</measure>
+        <measure type="precipitation" unit="mm">11.9</measure>
+        <wind speed="20.5" direction="158"/>
+        <air_quality>
+          <pollutant name="PM2.5">22.9</pollutant>
+          <pollutant name="PM10">10.6</pollutant>
+          <pollutant name="NO2">40.6</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T12:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">27</measure>
+        <measure type="humidity" unit="%">56</measure>
+        <measure type="pressure" unit="hPa">998.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="52" direction="223"/>
+        <air_quality>
+          <pollutant name="PM2.5">17.2</pollutant>
+          <pollutant name="PM10">21.5</pollutant>
+          <pollutant name="NO2">43.1</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-24T14:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">21.9</measure>
+        <measure type="humidity" unit="%">40</measure>
+        <measure type="pressure" unit="hPa">1006.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="64.7" direction="92"/>
+        <air_quality>
+          <pollutant name="PM2.5">16.8</pollutant>
+          <pollutant name="PM10">29.3</pollutant>
+          <pollutant name="NO2">29.5</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T19:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">8</measure>
+        <measure type="humidity" unit="%">37</measure>
+        <measure type="pressure" unit="hPa">1021.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="59.3" direction="314"/>
+        <air_quality>
+          <pollutant name="PM2.5">6.2</pollutant>
+          <pollutant name="PM10">53.9</pollutant>
+          <pollutant name="NO2">25</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T22:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">26.4</measure>
+        <measure type="humidity" unit="%">78</measure>
+        <measure type="pressure" unit="hPa">1024.1</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="2.3" direction="34"/>
+        <air_quality>
+          <pollutant name="PM2.5">30.1</pollutant>
+          <pollutant name="PM10">34.1</pollutant>
+          <pollutant name="NO2">57.2</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T03:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">30.1</measure>
+        <measure type="humidity" unit="%">58</measure>
+        <measure type="pressure" unit="hPa">1007.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="5" direction="70"/>
+        <air_quality>
+          <pollutant name="PM2.5">13.5</pollutant>
+          <pollutant name="PM10">16.2</pollutant>
+          <pollutant name="NO2">45.5</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+    </observations>
+  </station>
+  <station id="PT-POR-013" country="PT">
+    <name>Porto Pedras Rubras</name>
+    <coordinates lat="41.2481" lon="-8.6814" altitude="69"/>
+    <hardware vendor="Gill Instruments" model="MetPak-II" since="2019-12-15"/>
+    <observations count="10">
+      <observation at="2026-05-24T01:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">31.9</measure>
+        <measure type="humidity" unit="%">53</measure>
+        <measure type="pressure" unit="hPa">1019.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="64.9" direction="102"/>
+        <air_quality>
+          <pollutant name="PM2.5">38.8</pollutant>
+          <pollutant name="PM10">40.5</pollutant>
+          <pollutant name="NO2">54.4</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T05:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">19.7</measure>
+        <measure type="humidity" unit="%">80</measure>
+        <measure type="pressure" unit="hPa">988.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="35.2" direction="153"/>
+        <air_quality>
+          <pollutant name="PM2.5">36.3</pollutant>
+          <pollutant name="PM10">44.6</pollutant>
+          <pollutant name="NO2">11.7</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T08:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">24.2</measure>
+        <measure type="humidity" unit="%">36</measure>
+        <measure type="pressure" unit="hPa">1003</measure>
+        <measure type="precipitation" unit="mm">6.7</measure>
+        <wind speed="37.2" direction="239"/>
+        <air_quality>
+          <pollutant name="PM2.5">40.1</pollutant>
+          <pollutant name="PM10">12.7</pollutant>
+          <pollutant name="NO2">26.9</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-24T13:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">25.5</measure>
+        <measure type="humidity" unit="%">39</measure>
+        <measure type="pressure" unit="hPa">991.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="20.6" direction="37"/>
+        <air_quality>
+          <pollutant name="PM2.5">8.4</pollutant>
+          <pollutant name="PM10">67.7</pollutant>
+          <pollutant name="NO2">35.3</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T18:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">13.6</measure>
+        <measure type="humidity" unit="%">90</measure>
+        <measure type="pressure" unit="hPa">987.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="8.1" direction="78"/>
+        <air_quality>
+          <pollutant name="PM2.5">17.5</pollutant>
+          <pollutant name="PM10">75.7</pollutant>
+          <pollutant name="NO2">54.2</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-24T21:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">18.5</measure>
+        <measure type="humidity" unit="%">70</measure>
+        <measure type="pressure" unit="hPa">998.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="40.6" direction="314"/>
+        <air_quality>
+          <pollutant name="PM2.5">27.9</pollutant>
+          <pollutant name="PM10">49.8</pollutant>
+          <pollutant name="NO2">14.4</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T23:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">-2</measure>
+        <measure type="humidity" unit="%">95</measure>
+        <measure type="pressure" unit="hPa">1017.1</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="37.5" direction="333"/>
+        <air_quality>
+          <pollutant name="PM2.5">27</pollutant>
+          <pollutant name="PM10">52.5</pollutant>
+          <pollutant name="NO2">6.7</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-25T04:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">4.1</measure>
+        <measure type="humidity" unit="%">86</measure>
+        <measure type="pressure" unit="hPa">1019.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="19.3" direction="37"/>
+        <air_quality>
+          <pollutant name="PM2.5">23.3</pollutant>
+          <pollutant name="PM10">22.7</pollutant>
+          <pollutant name="NO2">38.4</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-25T08:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">31.1</measure>
+        <measure type="humidity" unit="%">43</measure>
+        <measure type="pressure" unit="hPa">1023</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="33.5" direction="54"/>
+        <air_quality>
+          <pollutant name="PM2.5">21.9</pollutant>
+          <pollutant name="PM10">18.1</pollutant>
+          <pollutant name="NO2">7.8</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-25T11:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">30.6</measure>
+        <measure type="humidity" unit="%">92</measure>
+        <measure type="pressure" unit="hPa">993</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="21.3" direction="295"/>
+        <air_quality>
+          <pollutant name="PM2.5">23.9</pollutant>
+          <pollutant name="PM10">45.1</pollutant>
+          <pollutant name="NO2">32.4</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+    </observations>
+  </station>
+  <station id="IT-ROM-014" country="IT">
+    <name>Roma Fiumicino</name>
+    <coordinates lat="41.8003" lon="12.2389" altitude="3"/>
+    <hardware vendor="Vaisala" model="AWS-3000" since="2021-09-15"/>
+    <observations count="10">
+      <observation at="2026-05-24T01:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">3</measure>
+        <measure type="humidity" unit="%">57</measure>
+        <measure type="pressure" unit="hPa">987.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="18.3" direction="305"/>
+        <air_quality>
+          <pollutant name="PM2.5">15</pollutant>
+          <pollutant name="PM10">8.6</pollutant>
+          <pollutant name="NO2">10.9</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-24T05:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">23.3</measure>
+        <measure type="humidity" unit="%">58</measure>
+        <measure type="pressure" unit="hPa">987.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="3.3" direction="287"/>
+        <air_quality>
+          <pollutant name="PM2.5">26.2</pollutant>
+          <pollutant name="PM10">13.3</pollutant>
+          <pollutant name="NO2">32.7</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T08:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">31.1</measure>
+        <measure type="humidity" unit="%">60</measure>
+        <measure type="pressure" unit="hPa">1003.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="64.1" direction="285"/>
+        <air_quality>
+          <pollutant name="PM2.5">28.3</pollutant>
+          <pollutant name="PM10">36.9</pollutant>
+          <pollutant name="NO2">7.2</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T12:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">24.7</measure>
+        <measure type="humidity" unit="%">68</measure>
+        <measure type="pressure" unit="hPa">1007.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="39.4" direction="263"/>
+        <air_quality>
+          <pollutant name="PM2.5">42.1</pollutant>
+          <pollutant name="PM10">30.9</pollutant>
+          <pollutant name="NO2">26.6</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T17:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">21.2</measure>
+        <measure type="humidity" unit="%">54</measure>
+        <measure type="pressure" unit="hPa">1008.7</measure>
+        <measure type="precipitation" unit="mm">11.8</measure>
+        <wind speed="1.1" direction="169"/>
+        <air_quality>
+          <pollutant name="PM2.5">15.9</pollutant>
+          <pollutant name="PM10">72.7</pollutant>
+          <pollutant name="NO2">53</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T21:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">30.8</measure>
+        <measure type="humidity" unit="%">85</measure>
+        <measure type="pressure" unit="hPa">1033.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="37.6" direction="116"/>
+        <air_quality>
+          <pollutant name="PM2.5">25</pollutant>
+          <pollutant name="PM10">59.9</pollutant>
+          <pollutant name="NO2">47.6</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T00:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">-3.8</measure>
+        <measure type="humidity" unit="%">95</measure>
+        <measure type="pressure" unit="hPa">1020</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="12.4" direction="225"/>
+        <air_quality>
+          <pollutant name="PM2.5">20.2</pollutant>
+          <pollutant name="PM10">63.8</pollutant>
+          <pollutant name="NO2">55.6</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T03:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">15.8</measure>
+        <measure type="humidity" unit="%">77</measure>
+        <measure type="pressure" unit="hPa">1008.9</measure>
+        <measure type="precipitation" unit="mm">6.4</measure>
+        <wind speed="24.5" direction="88"/>
+        <air_quality>
+          <pollutant name="PM2.5">17.9</pollutant>
+          <pollutant name="PM10">63.6</pollutant>
+          <pollutant name="NO2">44.7</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-25T06:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">30.4</measure>
+        <measure type="humidity" unit="%">52</measure>
+        <measure type="pressure" unit="hPa">1012.9</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="14.6" direction="152"/>
+        <air_quality>
+          <pollutant name="PM2.5">16.3</pollutant>
+          <pollutant name="PM10">33.1</pollutant>
+          <pollutant name="NO2">56.4</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-25T08:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">16.2</measure>
+        <measure type="humidity" unit="%">69</measure>
+        <measure type="pressure" unit="hPa">1004</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="63.7" direction="176"/>
+        <air_quality>
+          <pollutant name="PM2.5">4.8</pollutant>
+          <pollutant name="PM10">76.8</pollutant>
+          <pollutant name="NO2">9.3</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+    </observations>
+  </station>
+  <station id="IT-MIL-015" country="IT">
+    <name>Milano Malpensa</name>
+    <coordinates lat="45.6306" lon="8.7281" altitude="211"/>
+    <hardware vendor="Davis Instruments" model="WS-2500" since="2018-09-09"/>
+    <observations count="10">
+      <observation at="2026-05-24T04:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">20.8</measure>
+        <measure type="humidity" unit="%">43</measure>
+        <measure type="pressure" unit="hPa">990.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="48.2" direction="122"/>
+        <air_quality>
+          <pollutant name="PM2.5">31.1</pollutant>
+          <pollutant name="PM10">46.2</pollutant>
+          <pollutant name="NO2">40.1</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T09:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">7.2</measure>
+        <measure type="humidity" unit="%">65</measure>
+        <measure type="pressure" unit="hPa">990</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="50.1" direction="2"/>
+        <air_quality>
+          <pollutant name="PM2.5">20.1</pollutant>
+          <pollutant name="PM10">75.3</pollutant>
+          <pollutant name="NO2">53.3</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T13:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">6.9</measure>
+        <measure type="humidity" unit="%">76</measure>
+        <measure type="pressure" unit="hPa">988</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="50" direction="333"/>
+        <air_quality>
+          <pollutant name="PM2.5">41.4</pollutant>
+          <pollutant name="PM10">20.6</pollutant>
+          <pollutant name="NO2">53.5</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T18:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">24.2</measure>
+        <measure type="humidity" unit="%">46</measure>
+        <measure type="pressure" unit="hPa">1031.8</measure>
+        <measure type="precipitation" unit="mm">0.2</measure>
+        <wind speed="62.5" direction="148"/>
+        <air_quality>
+          <pollutant name="PM2.5">28.3</pollutant>
+          <pollutant name="PM10">74.8</pollutant>
+          <pollutant name="NO2">23.4</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T21:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">26.5</measure>
+        <measure type="humidity" unit="%">64</measure>
+        <measure type="pressure" unit="hPa">998.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="52.6" direction="169"/>
+        <air_quality>
+          <pollutant name="PM2.5">22.3</pollutant>
+          <pollutant name="PM10">26.5</pollutant>
+          <pollutant name="NO2">15.2</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-25T00:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">1.5</measure>
+        <measure type="humidity" unit="%">89</measure>
+        <measure type="pressure" unit="hPa">1016.9</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="26.4" direction="218"/>
+        <air_quality>
+          <pollutant name="PM2.5">10.8</pollutant>
+          <pollutant name="PM10">18.1</pollutant>
+          <pollutant name="NO2">22.8</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T04:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">9.2</measure>
+        <measure type="humidity" unit="%">63</measure>
+        <measure type="pressure" unit="hPa">1022.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="62" direction="154"/>
+        <air_quality>
+          <pollutant name="PM2.5">30.5</pollutant>
+          <pollutant name="PM10">57.9</pollutant>
+          <pollutant name="NO2">8.4</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-25T08:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">0.9</measure>
+        <measure type="humidity" unit="%">78</measure>
+        <measure type="pressure" unit="hPa">1010.1</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="58.2" direction="159"/>
+        <air_quality>
+          <pollutant name="PM2.5">18.4</pollutant>
+          <pollutant name="PM10">23.9</pollutant>
+          <pollutant name="NO2">57.7</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T13:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">22.7</measure>
+        <measure type="humidity" unit="%">73</measure>
+        <measure type="pressure" unit="hPa">1003.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="45.6" direction="241"/>
+        <air_quality>
+          <pollutant name="PM2.5">35</pollutant>
+          <pollutant name="PM10">57</pollutant>
+          <pollutant name="NO2">37.8</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-25T17:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">-2.1</measure>
+        <measure type="humidity" unit="%">71</measure>
+        <measure type="pressure" unit="hPa">990.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="53.9" direction="258"/>
+        <air_quality>
+          <pollutant name="PM2.5">25.5</pollutant>
+          <pollutant name="PM10">19.8</pollutant>
+          <pollutant name="NO2">52</pollutant>
+        </air_quality>
+      </observation>
+    </observations>
+  </station>
+  <station id="IT-NAP-016" country="IT">
+    <name>Napoli Capodichino</name>
+    <coordinates lat="40.886" lon="14.2908" altitude="72"/>
+    <hardware vendor="Davis Instruments" model="Vue-7000" since="2022-02-17"/>
+    <observations count="10">
+      <observation at="2026-05-24T03:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">24.9</measure>
+        <measure type="humidity" unit="%">64</measure>
+        <measure type="pressure" unit="hPa">991.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="27" direction="288"/>
+        <air_quality>
+          <pollutant name="PM2.5">22.4</pollutant>
+          <pollutant name="PM10">66.1</pollutant>
+          <pollutant name="NO2">44.8</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-24T05:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">22.6</measure>
+        <measure type="humidity" unit="%">72</measure>
+        <measure type="pressure" unit="hPa">988.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="27.5" direction="358"/>
+        <air_quality>
+          <pollutant name="PM2.5">44.8</pollutant>
+          <pollutant name="PM10">75.3</pollutant>
+          <pollutant name="NO2">8.8</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T09:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">10.1</measure>
+        <measure type="humidity" unit="%">84</measure>
+        <measure type="pressure" unit="hPa">991.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="41.7" direction="330"/>
+        <air_quality>
+          <pollutant name="PM2.5">21.8</pollutant>
+          <pollutant name="PM10">74</pollutant>
+          <pollutant name="NO2">25.8</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T13:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">-0.6</measure>
+        <measure type="humidity" unit="%">69</measure>
+        <measure type="pressure" unit="hPa">1004.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="8.3" direction="114"/>
+        <air_quality>
+          <pollutant name="PM2.5">22.4</pollutant>
+          <pollutant name="PM10">59.8</pollutant>
+          <pollutant name="NO2">28.3</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T16:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">12</measure>
+        <measure type="humidity" unit="%">44</measure>
+        <measure type="pressure" unit="hPa">998.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="60.9" direction="57"/>
+        <air_quality>
+          <pollutant name="PM2.5">30.7</pollutant>
+          <pollutant name="PM10">52.3</pollutant>
+          <pollutant name="NO2">56.5</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T19:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">-2.5</measure>
+        <measure type="humidity" unit="%">73</measure>
+        <measure type="pressure" unit="hPa">986.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="38.9" direction="24"/>
+        <air_quality>
+          <pollutant name="PM2.5">4.9</pollutant>
+          <pollutant name="PM10">39.6</pollutant>
+          <pollutant name="NO2">34.7</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T23:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">3.7</measure>
+        <measure type="humidity" unit="%">93</measure>
+        <measure type="pressure" unit="hPa">1021.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="20.7" direction="306"/>
+        <air_quality>
+          <pollutant name="PM2.5">15.7</pollutant>
+          <pollutant name="PM10">18.3</pollutant>
+          <pollutant name="NO2">41.3</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-25T03:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">5.2</measure>
+        <measure type="humidity" unit="%">70</measure>
+        <measure type="pressure" unit="hPa">1032.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="57.2" direction="89"/>
+        <air_quality>
+          <pollutant name="PM2.5">5</pollutant>
+          <pollutant name="PM10">32.8</pollutant>
+          <pollutant name="NO2">40.4</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-25T08:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">10.1</measure>
+        <measure type="humidity" unit="%">54</measure>
+        <measure type="pressure" unit="hPa">1003.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="49" direction="242"/>
+        <air_quality>
+          <pollutant name="PM2.5">12.5</pollutant>
+          <pollutant name="PM10">69.7</pollutant>
+          <pollutant name="NO2">12.9</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T13:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">30.8</measure>
+        <measure type="humidity" unit="%">70</measure>
+        <measure type="pressure" unit="hPa">1011.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="25.2" direction="130"/>
+        <air_quality>
+          <pollutant name="PM2.5">30.2</pollutant>
+          <pollutant name="PM10">74.4</pollutant>
+          <pollutant name="NO2">51.6</pollutant>
+        </air_quality>
+      </observation>
+    </observations>
+  </station>
+  <station id="DE-BER-017" country="DE">
+    <name>Berlin Tegel</name>
+    <coordinates lat="52.5597" lon="13.2877" altitude="37"/>
+    <hardware vendor="Gill Instruments" model="MetPak-II" since="2021-11-20"/>
+    <observations count="10">
+      <observation at="2026-05-24T04:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">-3.5</measure>
+        <measure type="humidity" unit="%">39</measure>
+        <measure type="pressure" unit="hPa">994.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="49.5" direction="343"/>
+        <air_quality>
+          <pollutant name="PM2.5">15.7</pollutant>
+          <pollutant name="PM10">73.4</pollutant>
+          <pollutant name="NO2">16.6</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T09:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">28.8</measure>
+        <measure type="humidity" unit="%">79</measure>
+        <measure type="pressure" unit="hPa">1015.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="13.3" direction="122"/>
+        <air_quality>
+          <pollutant name="PM2.5">22.6</pollutant>
+          <pollutant name="PM10">54.7</pollutant>
+          <pollutant name="NO2">22</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T14:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">-1.4</measure>
+        <measure type="humidity" unit="%">81</measure>
+        <measure type="pressure" unit="hPa">1008.5</measure>
+        <measure type="precipitation" unit="mm">5</measure>
+        <wind speed="54.6" direction="104"/>
+        <air_quality>
+          <pollutant name="PM2.5">39.3</pollutant>
+          <pollutant name="PM10">61.4</pollutant>
+          <pollutant name="NO2">5.9</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-24T17:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">2.3</measure>
+        <measure type="humidity" unit="%">49</measure>
+        <measure type="pressure" unit="hPa">1004</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="54.2" direction="255"/>
+        <air_quality>
+          <pollutant name="PM2.5">13.8</pollutant>
+          <pollutant name="PM10">67.2</pollutant>
+          <pollutant name="NO2">58.2</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T20:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">22.1</measure>
+        <measure type="humidity" unit="%">57</measure>
+        <measure type="pressure" unit="hPa">993.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="46.8" direction="250"/>
+        <air_quality>
+          <pollutant name="PM2.5">40.4</pollutant>
+          <pollutant name="PM10">79.3</pollutant>
+          <pollutant name="NO2">57.6</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T22:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">23.3</measure>
+        <measure type="humidity" unit="%">61</measure>
+        <measure type="pressure" unit="hPa">991.9</measure>
+        <measure type="precipitation" unit="mm">0.2</measure>
+        <wind speed="41" direction="34"/>
+        <air_quality>
+          <pollutant name="PM2.5">22.2</pollutant>
+          <pollutant name="PM10">12.4</pollutant>
+          <pollutant name="NO2">40.1</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-25T00:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">-4.8</measure>
+        <measure type="humidity" unit="%">70</measure>
+        <measure type="pressure" unit="hPa">1005.6</measure>
+        <measure type="precipitation" unit="mm">3.5</measure>
+        <wind speed="1.1" direction="140"/>
+        <air_quality>
+          <pollutant name="PM2.5">37.2</pollutant>
+          <pollutant name="PM10">56.5</pollutant>
+          <pollutant name="NO2">49.3</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T02:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">14.4</measure>
+        <measure type="humidity" unit="%">50</measure>
+        <measure type="pressure" unit="hPa">994.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="34.2" direction="181"/>
+        <air_quality>
+          <pollutant name="PM2.5">19.7</pollutant>
+          <pollutant name="PM10">34.9</pollutant>
+          <pollutant name="NO2">27.3</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T06:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">20.3</measure>
+        <measure type="humidity" unit="%">89</measure>
+        <measure type="pressure" unit="hPa">989</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="64.5" direction="332"/>
+        <air_quality>
+          <pollutant name="PM2.5">18.8</pollutant>
+          <pollutant name="PM10">42.3</pollutant>
+          <pollutant name="NO2">40</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T11:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">26.3</measure>
+        <measure type="humidity" unit="%">76</measure>
+        <measure type="pressure" unit="hPa">1024.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="36.8" direction="48"/>
+        <air_quality>
+          <pollutant name="PM2.5">11.9</pollutant>
+          <pollutant name="PM10">70.5</pollutant>
+          <pollutant name="NO2">53.8</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+    </observations>
+  </station>
+  <station id="DE-MÜN-018" country="DE">
+    <name>München Riem</name>
+    <coordinates lat="48.3538" lon="11.7861" altitude="453"/>
+    <hardware vendor="Vaisala" model="AWS-3000" since="2019-09-19"/>
+    <observations count="10">
+      <observation at="2026-05-24T05:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">-3.8</measure>
+        <measure type="humidity" unit="%">94</measure>
+        <measure type="pressure" unit="hPa">1027.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="1" direction="106"/>
+        <air_quality>
+          <pollutant name="PM2.5">42</pollutant>
+          <pollutant name="PM10">29.5</pollutant>
+          <pollutant name="NO2">36</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T10:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">23</measure>
+        <measure type="humidity" unit="%">43</measure>
+        <measure type="pressure" unit="hPa">1024.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="44.8" direction="40"/>
+        <air_quality>
+          <pollutant name="PM2.5">7.1</pollutant>
+          <pollutant name="PM10">24.7</pollutant>
+          <pollutant name="NO2">9.2</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T12:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">18.5</measure>
+        <measure type="humidity" unit="%">85</measure>
+        <measure type="pressure" unit="hPa">1034.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="31.9" direction="182"/>
+        <air_quality>
+          <pollutant name="PM2.5">31.5</pollutant>
+          <pollutant name="PM10">55.6</pollutant>
+          <pollutant name="NO2">9.7</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T14:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">-2</measure>
+        <measure type="humidity" unit="%">44</measure>
+        <measure type="pressure" unit="hPa">1004</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="51" direction="78"/>
+        <air_quality>
+          <pollutant name="PM2.5">6.8</pollutant>
+          <pollutant name="PM10">75.9</pollutant>
+          <pollutant name="NO2">29.5</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T17:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">-1.8</measure>
+        <measure type="humidity" unit="%">62</measure>
+        <measure type="pressure" unit="hPa">1007.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="36.1" direction="208"/>
+        <air_quality>
+          <pollutant name="PM2.5">6.8</pollutant>
+          <pollutant name="PM10">47.9</pollutant>
+          <pollutant name="NO2">37.8</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-24T19:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">5.8</measure>
+        <measure type="humidity" unit="%">59</measure>
+        <measure type="pressure" unit="hPa">1024</measure>
+        <measure type="precipitation" unit="mm">11.7</measure>
+        <wind speed="47.1" direction="286"/>
+        <air_quality>
+          <pollutant name="PM2.5">24.9</pollutant>
+          <pollutant name="PM10">57.3</pollutant>
+          <pollutant name="NO2">14.3</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-24T23:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">13.2</measure>
+        <measure type="humidity" unit="%">39</measure>
+        <measure type="pressure" unit="hPa">993.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="17.9" direction="153"/>
+        <air_quality>
+          <pollutant name="PM2.5">42.7</pollutant>
+          <pollutant name="PM10">59.9</pollutant>
+          <pollutant name="NO2">32.3</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-25T01:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">0</measure>
+        <measure type="humidity" unit="%">35</measure>
+        <measure type="pressure" unit="hPa">1032.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="21.6" direction="317"/>
+        <air_quality>
+          <pollutant name="PM2.5">17.1</pollutant>
+          <pollutant name="PM10">66.7</pollutant>
+          <pollutant name="NO2">52.3</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-25T05:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">17.3</measure>
+        <measure type="humidity" unit="%">79</measure>
+        <measure type="pressure" unit="hPa">995</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="20.4" direction="203"/>
+        <air_quality>
+          <pollutant name="PM2.5">43.6</pollutant>
+          <pollutant name="PM10">64.3</pollutant>
+          <pollutant name="NO2">22.9</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-25T09:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">-0.8</measure>
+        <measure type="humidity" unit="%">71</measure>
+        <measure type="pressure" unit="hPa">995</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="64.8" direction="92"/>
+        <air_quality>
+          <pollutant name="PM2.5">42.6</pollutant>
+          <pollutant name="PM10">23.1</pollutant>
+          <pollutant name="NO2">48.9</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+    </observations>
+  </station>
+  <station id="DE-HAM-019" country="DE">
+    <name>Hamburg Fuhlsbüttel</name>
+    <coordinates lat="53.6303" lon="9.9883" altitude="16"/>
+    <hardware vendor="Davis Instruments" model="WS-2500" since="2019-04-09"/>
+    <observations count="10">
+      <observation at="2026-05-24T05:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">0.7</measure>
+        <measure type="humidity" unit="%">62</measure>
+        <measure type="pressure" unit="hPa">1024.5</measure>
+        <measure type="precipitation" unit="mm">4.9</measure>
+        <wind speed="4.8" direction="306"/>
+        <air_quality>
+          <pollutant name="PM2.5">41.8</pollutant>
+          <pollutant name="PM10">70.6</pollutant>
+          <pollutant name="NO2">28</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T07:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">-1</measure>
+        <measure type="humidity" unit="%">50</measure>
+        <measure type="pressure" unit="hPa">1017.9</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="23.1" direction="331"/>
+        <air_quality>
+          <pollutant name="PM2.5">43.6</pollutant>
+          <pollutant name="PM10">31.9</pollutant>
+          <pollutant name="NO2">48.8</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T09:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">4.6</measure>
+        <measure type="humidity" unit="%">67</measure>
+        <measure type="pressure" unit="hPa">1022.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="36.3" direction="352"/>
+        <air_quality>
+          <pollutant name="PM2.5">22.4</pollutant>
+          <pollutant name="PM10">56.9</pollutant>
+          <pollutant name="NO2">43</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T11:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">12.9</measure>
+        <measure type="humidity" unit="%">53</measure>
+        <measure type="pressure" unit="hPa">1005.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="62.5" direction="59"/>
+        <air_quality>
+          <pollutant name="PM2.5">16.1</pollutant>
+          <pollutant name="PM10">40.8</pollutant>
+          <pollutant name="NO2">16.4</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T16:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">-1.4</measure>
+        <measure type="humidity" unit="%">81</measure>
+        <measure type="pressure" unit="hPa">1019.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="20.7" direction="153"/>
+        <air_quality>
+          <pollutant name="PM2.5">32.9</pollutant>
+          <pollutant name="PM10">9.6</pollutant>
+          <pollutant name="NO2">23.9</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T19:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">14.1</measure>
+        <measure type="humidity" unit="%">70</measure>
+        <measure type="pressure" unit="hPa">993</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="36.4" direction="236"/>
+        <air_quality>
+          <pollutant name="PM2.5">20</pollutant>
+          <pollutant name="PM10">21.3</pollutant>
+          <pollutant name="NO2">40.2</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-24T21:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">22.3</measure>
+        <measure type="humidity" unit="%">91</measure>
+        <measure type="pressure" unit="hPa">994.9</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="38.5" direction="199"/>
+        <air_quality>
+          <pollutant name="PM2.5">12</pollutant>
+          <pollutant name="PM10">28</pollutant>
+          <pollutant name="NO2">43.7</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T00:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">8.5</measure>
+        <measure type="humidity" unit="%">47</measure>
+        <measure type="pressure" unit="hPa">1007.9</measure>
+        <measure type="precipitation" unit="mm">7.7</measure>
+        <wind speed="17.1" direction="250"/>
+        <air_quality>
+          <pollutant name="PM2.5">19.3</pollutant>
+          <pollutant name="PM10">36.3</pollutant>
+          <pollutant name="NO2">11.3</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-25T03:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">25.1</measure>
+        <measure type="humidity" unit="%">80</measure>
+        <measure type="pressure" unit="hPa">1025</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="59.7" direction="302"/>
+        <air_quality>
+          <pollutant name="PM2.5">8.6</pollutant>
+          <pollutant name="PM10">16.5</pollutant>
+          <pollutant name="NO2">21.8</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-25T06:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">13.9</measure>
+        <measure type="humidity" unit="%">61</measure>
+        <measure type="pressure" unit="hPa">1014.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="37.4" direction="216"/>
+        <air_quality>
+          <pollutant name="PM2.5">29.7</pollutant>
+          <pollutant name="PM10">57.9</pollutant>
+          <pollutant name="NO2">40.5</pollutant>
+        </air_quality>
+      </observation>
+    </observations>
+  </station>
+  <station id="DE-FRA-020" country="DE">
+    <name>Frankfurt Flughafen</name>
+    <coordinates lat="50.0379" lon="8.5622" altitude="111"/>
+    <hardware vendor="Gill Instruments" model="MetPak-II" since="2017-03-11"/>
+    <observations count="10">
+      <observation at="2026-05-24T06:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">11.7</measure>
+        <measure type="humidity" unit="%">38</measure>
+        <measure type="pressure" unit="hPa">1028.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="61.9" direction="248"/>
+        <air_quality>
+          <pollutant name="PM2.5">37.2</pollutant>
+          <pollutant name="PM10">77.4</pollutant>
+          <pollutant name="NO2">32.8</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-24T11:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">10.4</measure>
+        <measure type="humidity" unit="%">88</measure>
+        <measure type="pressure" unit="hPa">1007.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="10.9" direction="289"/>
+        <air_quality>
+          <pollutant name="PM2.5">35</pollutant>
+          <pollutant name="PM10">29</pollutant>
+          <pollutant name="NO2">20.1</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T16:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">15.9</measure>
+        <measure type="humidity" unit="%">84</measure>
+        <measure type="pressure" unit="hPa">1023.3</measure>
+        <measure type="precipitation" unit="mm">3.3</measure>
+        <wind speed="35.7" direction="57"/>
+        <air_quality>
+          <pollutant name="PM2.5">37.6</pollutant>
+          <pollutant name="PM10">34.4</pollutant>
+          <pollutant name="NO2">50.2</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T19:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">31.6</measure>
+        <measure type="humidity" unit="%">41</measure>
+        <measure type="pressure" unit="hPa">1021.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="42.5" direction="126"/>
+        <air_quality>
+          <pollutant name="PM2.5">45</pollutant>
+          <pollutant name="PM10">40.4</pollutant>
+          <pollutant name="NO2">24.2</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T21:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">23.7</measure>
+        <measure type="humidity" unit="%">50</measure>
+        <measure type="pressure" unit="hPa">995.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="47.9" direction="352"/>
+        <air_quality>
+          <pollutant name="PM2.5">10</pollutant>
+          <pollutant name="PM10">18</pollutant>
+          <pollutant name="NO2">16.4</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T01:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">14.7</measure>
+        <measure type="humidity" unit="%">73</measure>
+        <measure type="pressure" unit="hPa">1011.9</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="21" direction="149"/>
+        <air_quality>
+          <pollutant name="PM2.5">14.2</pollutant>
+          <pollutant name="PM10">69.8</pollutant>
+          <pollutant name="NO2">59.2</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T06:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">29</measure>
+        <measure type="humidity" unit="%">52</measure>
+        <measure type="pressure" unit="hPa">1028.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="8.2" direction="67"/>
+        <air_quality>
+          <pollutant name="PM2.5">32.9</pollutant>
+          <pollutant name="PM10">67.7</pollutant>
+          <pollutant name="NO2">46.9</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-25T09:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">16.4</measure>
+        <measure type="humidity" unit="%">52</measure>
+        <measure type="pressure" unit="hPa">1016.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="24.4" direction="38"/>
+        <air_quality>
+          <pollutant name="PM2.5">19.9</pollutant>
+          <pollutant name="PM10">62</pollutant>
+          <pollutant name="NO2">43.2</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-25T14:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">7.1</measure>
+        <measure type="humidity" unit="%">35</measure>
+        <measure type="pressure" unit="hPa">1028.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="55.1" direction="47"/>
+        <air_quality>
+          <pollutant name="PM2.5">38.7</pollutant>
+          <pollutant name="PM10">65.3</pollutant>
+          <pollutant name="NO2">26.9</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T19:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">4.9</measure>
+        <measure type="humidity" unit="%">88</measure>
+        <measure type="pressure" unit="hPa">999.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="35.6" direction="66"/>
+        <air_quality>
+          <pollutant name="PM2.5">40.6</pollutant>
+          <pollutant name="PM10">62.9</pollutant>
+          <pollutant name="NO2">7.5</pollutant>
+        </air_quality>
+      </observation>
+    </observations>
+  </station>
+  <station id="BE-BRU-021" country="BE">
+    <name>Bruxelles Zaventem</name>
+    <coordinates lat="50.9014" lon="4.4844" altitude="56"/>
+    <hardware vendor="Davis Instruments" model="WS-2500" since="2022-08-01"/>
+    <observations count="10">
+      <observation at="2026-05-24T03:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">2.5</measure>
+        <measure type="humidity" unit="%">79</measure>
+        <measure type="pressure" unit="hPa">1030.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="57.3" direction="154"/>
+        <air_quality>
+          <pollutant name="PM2.5">42.2</pollutant>
+          <pollutant name="PM10">27.7</pollutant>
+          <pollutant name="NO2">41</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T07:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">19.6</measure>
+        <measure type="humidity" unit="%">76</measure>
+        <measure type="pressure" unit="hPa">993.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="25.8" direction="156"/>
+        <air_quality>
+          <pollutant name="PM2.5">30.5</pollutant>
+          <pollutant name="PM10">58.7</pollutant>
+          <pollutant name="NO2">5.1</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T10:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">17</measure>
+        <measure type="humidity" unit="%">68</measure>
+        <measure type="pressure" unit="hPa">1019</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="0.6" direction="356"/>
+        <air_quality>
+          <pollutant name="PM2.5">32.1</pollutant>
+          <pollutant name="PM10">42.4</pollutant>
+          <pollutant name="NO2">17.6</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T12:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">6.6</measure>
+        <measure type="humidity" unit="%">91</measure>
+        <measure type="pressure" unit="hPa">1000</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="24.9" direction="68"/>
+        <air_quality>
+          <pollutant name="PM2.5">25.3</pollutant>
+          <pollutant name="PM10">8.6</pollutant>
+          <pollutant name="NO2">40.8</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T15:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">18.2</measure>
+        <measure type="humidity" unit="%">44</measure>
+        <measure type="pressure" unit="hPa">1031</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="40" direction="226"/>
+        <air_quality>
+          <pollutant name="PM2.5">8.9</pollutant>
+          <pollutant name="PM10">16.9</pollutant>
+          <pollutant name="NO2">45.2</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-24T19:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">24.3</measure>
+        <measure type="humidity" unit="%">50</measure>
+        <measure type="pressure" unit="hPa">998.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="5.5" direction="283"/>
+        <air_quality>
+          <pollutant name="PM2.5">35.7</pollutant>
+          <pollutant name="PM10">57.7</pollutant>
+          <pollutant name="NO2">51.6</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T22:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">22.7</measure>
+        <measure type="humidity" unit="%">53</measure>
+        <measure type="pressure" unit="hPa">1017.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="50.9" direction="122"/>
+        <air_quality>
+          <pollutant name="PM2.5">29.8</pollutant>
+          <pollutant name="PM10">13.1</pollutant>
+          <pollutant name="NO2">53.9</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-25T02:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">-0.1</measure>
+        <measure type="humidity" unit="%">90</measure>
+        <measure type="pressure" unit="hPa">1026.9</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="27.4" direction="279"/>
+        <air_quality>
+          <pollutant name="PM2.5">3.7</pollutant>
+          <pollutant name="PM10">12.9</pollutant>
+          <pollutant name="NO2">19.4</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T07:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">13.7</measure>
+        <measure type="humidity" unit="%">75</measure>
+        <measure type="pressure" unit="hPa">1020.6</measure>
+        <measure type="precipitation" unit="mm">1.1</measure>
+        <wind speed="49.9" direction="216"/>
+        <air_quality>
+          <pollutant name="PM2.5">25.6</pollutant>
+          <pollutant name="PM10">19</pollutant>
+          <pollutant name="NO2">9.6</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T10:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">14.8</measure>
+        <measure type="humidity" unit="%">60</measure>
+        <measure type="pressure" unit="hPa">1014.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="49.6" direction="332"/>
+        <air_quality>
+          <pollutant name="PM2.5">33.7</pollutant>
+          <pollutant name="PM10">68.9</pollutant>
+          <pollutant name="NO2">8.2</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+    </observations>
+  </station>
+  <station id="NL-AMS-022" country="NL">
+    <name>Amsterdam Schiphol</name>
+    <coordinates lat="52.3086" lon="4.7639" altitude="-4"/>
+    <hardware vendor="Vaisala" model="AWS-2700" since="2024-10-02"/>
+    <observations count="10">
+      <observation at="2026-05-24T02:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">19.6</measure>
+        <measure type="humidity" unit="%">77</measure>
+        <measure type="pressure" unit="hPa">1022</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="7.8" direction="70"/>
+        <air_quality>
+          <pollutant name="PM2.5">25</pollutant>
+          <pollutant name="PM10">64.4</pollutant>
+          <pollutant name="NO2">44.6</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T05:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">22.7</measure>
+        <measure type="humidity" unit="%">90</measure>
+        <measure type="pressure" unit="hPa">998.4</measure>
+        <measure type="precipitation" unit="mm">5.2</measure>
+        <wind speed="57.6" direction="15"/>
+        <air_quality>
+          <pollutant name="PM2.5">5.7</pollutant>
+          <pollutant name="PM10">59.3</pollutant>
+          <pollutant name="NO2">36.7</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T10:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">13.9</measure>
+        <measure type="humidity" unit="%">38</measure>
+        <measure type="pressure" unit="hPa">1010</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="36.8" direction="188"/>
+        <air_quality>
+          <pollutant name="PM2.5">35.5</pollutant>
+          <pollutant name="PM10">72.4</pollutant>
+          <pollutant name="NO2">42.1</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T12:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">-3.4</measure>
+        <measure type="humidity" unit="%">90</measure>
+        <measure type="pressure" unit="hPa">985.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="3" direction="186"/>
+        <air_quality>
+          <pollutant name="PM2.5">26.2</pollutant>
+          <pollutant name="PM10">73.8</pollutant>
+          <pollutant name="NO2">45.7</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T16:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">4.2</measure>
+        <measure type="humidity" unit="%">93</measure>
+        <measure type="pressure" unit="hPa">1021</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="17.6" direction="39"/>
+        <air_quality>
+          <pollutant name="PM2.5">10.5</pollutant>
+          <pollutant name="PM10">65.9</pollutant>
+          <pollutant name="NO2">59</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T21:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">27</measure>
+        <measure type="humidity" unit="%">84</measure>
+        <measure type="pressure" unit="hPa">1027.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="21.3" direction="283"/>
+        <air_quality>
+          <pollutant name="PM2.5">26.7</pollutant>
+          <pollutant name="PM10">29.9</pollutant>
+          <pollutant name="NO2">39.2</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-25T02:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">31.9</measure>
+        <measure type="humidity" unit="%">84</measure>
+        <measure type="pressure" unit="hPa">994.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="58.5" direction="125"/>
+        <air_quality>
+          <pollutant name="PM2.5">42.2</pollutant>
+          <pollutant name="PM10">9.7</pollutant>
+          <pollutant name="NO2">34.8</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-25T04:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">23.1</measure>
+        <measure type="humidity" unit="%">59</measure>
+        <measure type="pressure" unit="hPa">1027.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="47.3" direction="53"/>
+        <air_quality>
+          <pollutant name="PM2.5">44.3</pollutant>
+          <pollutant name="PM10">38.2</pollutant>
+          <pollutant name="NO2">57.9</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-25T06:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">-3.4</measure>
+        <measure type="humidity" unit="%">49</measure>
+        <measure type="pressure" unit="hPa">1029.9</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="33.8" direction="358"/>
+        <air_quality>
+          <pollutant name="PM2.5">27.4</pollutant>
+          <pollutant name="PM10">44.4</pollutant>
+          <pollutant name="NO2">40</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T08:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">11.1</measure>
+        <measure type="humidity" unit="%">43</measure>
+        <measure type="pressure" unit="hPa">996.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="17" direction="161"/>
+        <air_quality>
+          <pollutant name="PM2.5">16.4</pollutant>
+          <pollutant name="PM10">27.6</pollutant>
+          <pollutant name="NO2">9.1</pollutant>
+        </air_quality>
+      </observation>
+    </observations>
+  </station>
+  <station id="AT-WIE-023" country="AT">
+    <name>Wien Schwechat</name>
+    <coordinates lat="48.1102" lon="16.5697" altitude="183"/>
+    <hardware vendor="Davis Instruments" model="WS-2500" since="2016-03-15"/>
+    <observations count="10">
+      <observation at="2026-05-24T03:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">6.6</measure>
+        <measure type="humidity" unit="%">42</measure>
+        <measure type="pressure" unit="hPa">1011.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="62.7" direction="106"/>
+        <air_quality>
+          <pollutant name="PM2.5">6.8</pollutant>
+          <pollutant name="PM10">66.1</pollutant>
+          <pollutant name="NO2">21.7</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T07:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">0.5</measure>
+        <measure type="humidity" unit="%">80</measure>
+        <measure type="pressure" unit="hPa">997.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="23.1" direction="262"/>
+        <air_quality>
+          <pollutant name="PM2.5">15.6</pollutant>
+          <pollutant name="PM10">67</pollutant>
+          <pollutant name="NO2">14.6</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T10:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">-1.5</measure>
+        <measure type="humidity" unit="%">41</measure>
+        <measure type="pressure" unit="hPa">1025.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="9.1" direction="6"/>
+        <air_quality>
+          <pollutant name="PM2.5">35.8</pollutant>
+          <pollutant name="PM10">24</pollutant>
+          <pollutant name="NO2">15.9</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T12:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">16.5</measure>
+        <measure type="humidity" unit="%">51</measure>
+        <measure type="pressure" unit="hPa">1030.9</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="4.9" direction="33"/>
+        <air_quality>
+          <pollutant name="PM2.5">30.1</pollutant>
+          <pollutant name="PM10">66.3</pollutant>
+          <pollutant name="NO2">10.1</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T14:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">29.9</measure>
+        <measure type="humidity" unit="%">38</measure>
+        <measure type="pressure" unit="hPa">993.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="37.3" direction="202"/>
+        <air_quality>
+          <pollutant name="PM2.5">10.3</pollutant>
+          <pollutant name="PM10">23.5</pollutant>
+          <pollutant name="NO2">15.3</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T17:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">-3.7</measure>
+        <measure type="humidity" unit="%">74</measure>
+        <measure type="pressure" unit="hPa">1015.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="42.1" direction="255"/>
+        <air_quality>
+          <pollutant name="PM2.5">6.7</pollutant>
+          <pollutant name="PM10">35.6</pollutant>
+          <pollutant name="NO2">28.1</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T22:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">23.9</measure>
+        <measure type="humidity" unit="%">57</measure>
+        <measure type="pressure" unit="hPa">1009</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="50.8" direction="176"/>
+        <air_quality>
+          <pollutant name="PM2.5">14.4</pollutant>
+          <pollutant name="PM10">9.9</pollutant>
+          <pollutant name="NO2">37.8</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-25T00:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">24.9</measure>
+        <measure type="humidity" unit="%">65</measure>
+        <measure type="pressure" unit="hPa">1011.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="49.8" direction="119"/>
+        <air_quality>
+          <pollutant name="PM2.5">14.2</pollutant>
+          <pollutant name="PM10">66.8</pollutant>
+          <pollutant name="NO2">55.4</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T05:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">8.1</measure>
+        <measure type="humidity" unit="%">88</measure>
+        <measure type="pressure" unit="hPa">1034.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="11.3" direction="121"/>
+        <air_quality>
+          <pollutant name="PM2.5">41.4</pollutant>
+          <pollutant name="PM10">10</pollutant>
+          <pollutant name="NO2">43.5</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T10:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">15.1</measure>
+        <measure type="humidity" unit="%">46</measure>
+        <measure type="pressure" unit="hPa">1009.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="5.9" direction="119"/>
+        <air_quality>
+          <pollutant name="PM2.5">3</pollutant>
+          <pollutant name="PM10">74.1</pollutant>
+          <pollutant name="NO2">16.1</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+    </observations>
+  </station>
+  <station id="CH-ZÜR-024" country="CH">
+    <name>Zürich Kloten</name>
+    <coordinates lat="47.4647" lon="8.5492" altitude="432"/>
+    <hardware vendor="Gill Instruments" model="MetPak-II" since="2015-01-05"/>
+    <observations count="10">
+      <observation at="2026-05-24T04:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">21.1</measure>
+        <measure type="humidity" unit="%">44</measure>
+        <measure type="pressure" unit="hPa">1023.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="55" direction="186"/>
+        <air_quality>
+          <pollutant name="PM2.5">27.6</pollutant>
+          <pollutant name="PM10">32.2</pollutant>
+          <pollutant name="NO2">22.7</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-24T09:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">19</measure>
+        <measure type="humidity" unit="%">46</measure>
+        <measure type="pressure" unit="hPa">1020.4</measure>
+        <measure type="precipitation" unit="mm">2.8</measure>
+        <wind speed="36.5" direction="314"/>
+        <air_quality>
+          <pollutant name="PM2.5">37.2</pollutant>
+          <pollutant name="PM10">35.2</pollutant>
+          <pollutant name="NO2">45.4</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T12:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">22</measure>
+        <measure type="humidity" unit="%">95</measure>
+        <measure type="pressure" unit="hPa">1020.1</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="37.2" direction="290"/>
+        <air_quality>
+          <pollutant name="PM2.5">28.3</pollutant>
+          <pollutant name="PM10">74.3</pollutant>
+          <pollutant name="NO2">58.2</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T17:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">0.2</measure>
+        <measure type="humidity" unit="%">82</measure>
+        <measure type="pressure" unit="hPa">988.9</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="22.5" direction="163"/>
+        <air_quality>
+          <pollutant name="PM2.5">40.2</pollutant>
+          <pollutant name="PM10">14.4</pollutant>
+          <pollutant name="NO2">44</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T19:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">4.8</measure>
+        <measure type="humidity" unit="%">50</measure>
+        <measure type="pressure" unit="hPa">1019.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="22.8" direction="55"/>
+        <air_quality>
+          <pollutant name="PM2.5">33.8</pollutant>
+          <pollutant name="PM10">77.8</pollutant>
+          <pollutant name="NO2">53.7</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-24T23:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">15.2</measure>
+        <measure type="humidity" unit="%">41</measure>
+        <measure type="pressure" unit="hPa">1026.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="51.3" direction="295"/>
+        <air_quality>
+          <pollutant name="PM2.5">22</pollutant>
+          <pollutant name="PM10">65.5</pollutant>
+          <pollutant name="NO2">6.8</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-25T03:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">30.2</measure>
+        <measure type="humidity" unit="%">39</measure>
+        <measure type="pressure" unit="hPa">1002.1</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="57.7" direction="82"/>
+        <air_quality>
+          <pollutant name="PM2.5">17.2</pollutant>
+          <pollutant name="PM10">78.9</pollutant>
+          <pollutant name="NO2">54.1</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-25T06:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">17.5</measure>
+        <measure type="humidity" unit="%">62</measure>
+        <measure type="pressure" unit="hPa">992.9</measure>
+        <measure type="precipitation" unit="mm">5</measure>
+        <wind speed="6.6" direction="105"/>
+        <air_quality>
+          <pollutant name="PM2.5">33.3</pollutant>
+          <pollutant name="PM10">60.6</pollutant>
+          <pollutant name="NO2">19.6</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-25T09:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">-1.5</measure>
+        <measure type="humidity" unit="%">60</measure>
+        <measure type="pressure" unit="hPa">1013.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="54.6" direction="78"/>
+        <air_quality>
+          <pollutant name="PM2.5">3.2</pollutant>
+          <pollutant name="PM10">14.3</pollutant>
+          <pollutant name="NO2">50.3</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T11:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">-4</measure>
+        <measure type="humidity" unit="%">45</measure>
+        <measure type="pressure" unit="hPa">1016.9</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="63.5" direction="242"/>
+        <air_quality>
+          <pollutant name="PM2.5">22.8</pollutant>
+          <pollutant name="PM10">72.4</pollutant>
+          <pollutant name="NO2">19.6</pollutant>
+        </air_quality>
+      </observation>
+    </observations>
+  </station>
+  <station id="CH-GEN-025" country="CH">
+    <name>Genève Cointrin</name>
+    <coordinates lat="46.2381" lon="6.1089" altitude="411"/>
+    <hardware vendor="Vaisala" model="AWS-2700" since="2020-03-15"/>
+    <observations count="10">
+      <observation at="2026-05-24T00:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">4.7</measure>
+        <measure type="humidity" unit="%">64</measure>
+        <measure type="pressure" unit="hPa">998.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="54.4" direction="288"/>
+        <air_quality>
+          <pollutant name="PM2.5">34.6</pollutant>
+          <pollutant name="PM10">56.1</pollutant>
+          <pollutant name="NO2">9.7</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-24T03:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">15.5</measure>
+        <measure type="humidity" unit="%">88</measure>
+        <measure type="pressure" unit="hPa">1004.4</measure>
+        <measure type="precipitation" unit="mm">11.2</measure>
+        <wind speed="34" direction="274"/>
+        <air_quality>
+          <pollutant name="PM2.5">40</pollutant>
+          <pollutant name="PM10">42.3</pollutant>
+          <pollutant name="NO2">9.3</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T05:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">30.1</measure>
+        <measure type="humidity" unit="%">63</measure>
+        <measure type="pressure" unit="hPa">993.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="64" direction="108"/>
+        <air_quality>
+          <pollutant name="PM2.5">6.3</pollutant>
+          <pollutant name="PM10">57.2</pollutant>
+          <pollutant name="NO2">16.1</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-24T09:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">28.7</measure>
+        <measure type="humidity" unit="%">93</measure>
+        <measure type="pressure" unit="hPa">1025.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="5.7" direction="284"/>
+        <air_quality>
+          <pollutant name="PM2.5">24.8</pollutant>
+          <pollutant name="PM10">74</pollutant>
+          <pollutant name="NO2">5.7</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T14:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">0.5</measure>
+        <measure type="humidity" unit="%">71</measure>
+        <measure type="pressure" unit="hPa">1014.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="49.3" direction="51"/>
+        <air_quality>
+          <pollutant name="PM2.5">36</pollutant>
+          <pollutant name="PM10">70.5</pollutant>
+          <pollutant name="NO2">53.4</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-24T19:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">19.2</measure>
+        <measure type="humidity" unit="%">71</measure>
+        <measure type="pressure" unit="hPa">1015.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="2.4" direction="141"/>
+        <air_quality>
+          <pollutant name="PM2.5">4.6</pollutant>
+          <pollutant name="PM10">72</pollutant>
+          <pollutant name="NO2">23.2</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T00:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">29.1</measure>
+        <measure type="humidity" unit="%">92</measure>
+        <measure type="pressure" unit="hPa">1003.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="22" direction="155"/>
+        <air_quality>
+          <pollutant name="PM2.5">43.8</pollutant>
+          <pollutant name="PM10">24.4</pollutant>
+          <pollutant name="NO2">21.5</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-25T04:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">22</measure>
+        <measure type="humidity" unit="%">73</measure>
+        <measure type="pressure" unit="hPa">1017.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="12.2" direction="108"/>
+        <air_quality>
+          <pollutant name="PM2.5">34.9</pollutant>
+          <pollutant name="PM10">70.4</pollutant>
+          <pollutant name="NO2">50.2</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T08:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">21.3</measure>
+        <measure type="humidity" unit="%">60</measure>
+        <measure type="pressure" unit="hPa">991.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="55.3" direction="291"/>
+        <air_quality>
+          <pollutant name="PM2.5">11.1</pollutant>
+          <pollutant name="PM10">68</pollutant>
+          <pollutant name="NO2">51</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T13:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">-3.1</measure>
+        <measure type="humidity" unit="%">58</measure>
+        <measure type="pressure" unit="hPa">1020.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="17.8" direction="237"/>
+        <air_quality>
+          <pollutant name="PM2.5">31.6</pollutant>
+          <pollutant name="PM10">25.4</pollutant>
+          <pollutant name="NO2">31.9</pollutant>
+        </air_quality>
+      </observation>
+    </observations>
+  </station>
+  <station id="DK-KØB-026" country="DK">
+    <name>København Kastrup</name>
+    <coordinates lat="55.618" lon="12.6561" altitude="5"/>
+    <hardware vendor="Davis Instruments" model="Vue-7000" since="2023-06-12"/>
+    <observations count="10">
+      <observation at="2026-05-24T01:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">26</measure>
+        <measure type="humidity" unit="%">51</measure>
+        <measure type="pressure" unit="hPa">1022.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="44.8" direction="145"/>
+        <air_quality>
+          <pollutant name="PM2.5">5.1</pollutant>
+          <pollutant name="PM10">69.5</pollutant>
+          <pollutant name="NO2">47.9</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T04:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">20.1</measure>
+        <measure type="humidity" unit="%">52</measure>
+        <measure type="pressure" unit="hPa">1017.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="33.4" direction="349"/>
+        <air_quality>
+          <pollutant name="PM2.5">41.3</pollutant>
+          <pollutant name="PM10">54.6</pollutant>
+          <pollutant name="NO2">38.1</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T08:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">17.5</measure>
+        <measure type="humidity" unit="%">95</measure>
+        <measure type="pressure" unit="hPa">1000.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="62.9" direction="329"/>
+        <air_quality>
+          <pollutant name="PM2.5">40.6</pollutant>
+          <pollutant name="PM10">69.3</pollutant>
+          <pollutant name="NO2">30.2</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T12:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">20.1</measure>
+        <measure type="humidity" unit="%">87</measure>
+        <measure type="pressure" unit="hPa">1016.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="38" direction="3"/>
+        <air_quality>
+          <pollutant name="PM2.5">26.6</pollutant>
+          <pollutant name="PM10">50.8</pollutant>
+          <pollutant name="NO2">20.5</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T14:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">7.4</measure>
+        <measure type="humidity" unit="%">52</measure>
+        <measure type="pressure" unit="hPa">1017</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="56" direction="133"/>
+        <air_quality>
+          <pollutant name="PM2.5">10.9</pollutant>
+          <pollutant name="PM10">45.2</pollutant>
+          <pollutant name="NO2">18.2</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-24T18:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">20.2</measure>
+        <measure type="humidity" unit="%">81</measure>
+        <measure type="pressure" unit="hPa">986.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="32.3" direction="151"/>
+        <air_quality>
+          <pollutant name="PM2.5">20.6</pollutant>
+          <pollutant name="PM10">36</pollutant>
+          <pollutant name="NO2">6.9</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T21:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">20.4</measure>
+        <measure type="humidity" unit="%">75</measure>
+        <measure type="pressure" unit="hPa">1024.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="58.9" direction="343"/>
+        <air_quality>
+          <pollutant name="PM2.5">38.3</pollutant>
+          <pollutant name="PM10">71.1</pollutant>
+          <pollutant name="NO2">15</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-25T00:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">22.4</measure>
+        <measure type="humidity" unit="%">81</measure>
+        <measure type="pressure" unit="hPa">1025.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="49.6" direction="93"/>
+        <air_quality>
+          <pollutant name="PM2.5">12.3</pollutant>
+          <pollutant name="PM10">24.1</pollutant>
+          <pollutant name="NO2">52.9</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-25T04:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">4.6</measure>
+        <measure type="humidity" unit="%">53</measure>
+        <measure type="pressure" unit="hPa">1008.2</measure>
+        <measure type="precipitation" unit="mm">7</measure>
+        <wind speed="7.7" direction="27"/>
+        <air_quality>
+          <pollutant name="PM2.5">6</pollutant>
+          <pollutant name="PM10">72</pollutant>
+          <pollutant name="NO2">32.5</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-25T09:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">-3</measure>
+        <measure type="humidity" unit="%">89</measure>
+        <measure type="pressure" unit="hPa">992.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="64.5" direction="175"/>
+        <air_quality>
+          <pollutant name="PM2.5">9</pollutant>
+          <pollutant name="PM10">70.1</pollutant>
+          <pollutant name="NO2">14.9</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+    </observations>
+  </station>
+  <station id="SE-STO-027" country="SE">
+    <name>Stockholm Arlanda</name>
+    <coordinates lat="59.6519" lon="17.9186" altitude="137"/>
+    <hardware vendor="Davis Instruments" model="WS-2500" since="2020-11-02"/>
+    <observations count="10">
+      <observation at="2026-05-24T00:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">11.7</measure>
+        <measure type="humidity" unit="%">48</measure>
+        <measure type="pressure" unit="hPa">1023.1</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="11" direction="81"/>
+        <air_quality>
+          <pollutant name="PM2.5">8.4</pollutant>
+          <pollutant name="PM10">39.2</pollutant>
+          <pollutant name="NO2">28.6</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T05:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">-4.8</measure>
+        <measure type="humidity" unit="%">69</measure>
+        <measure type="pressure" unit="hPa">995</measure>
+        <measure type="precipitation" unit="mm">9.1</measure>
+        <wind speed="24.3" direction="7"/>
+        <air_quality>
+          <pollutant name="PM2.5">11</pollutant>
+          <pollutant name="PM10">56.7</pollutant>
+          <pollutant name="NO2">39.5</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T09:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">6.5</measure>
+        <measure type="humidity" unit="%">41</measure>
+        <measure type="pressure" unit="hPa">1004.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="38.3" direction="85"/>
+        <air_quality>
+          <pollutant name="PM2.5">4.9</pollutant>
+          <pollutant name="PM10">76.3</pollutant>
+          <pollutant name="NO2">30.1</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-24T12:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">7.7</measure>
+        <measure type="humidity" unit="%">92</measure>
+        <measure type="pressure" unit="hPa">1009.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="48.8" direction="84"/>
+        <air_quality>
+          <pollutant name="PM2.5">3.8</pollutant>
+          <pollutant name="PM10">24.2</pollutant>
+          <pollutant name="NO2">59.2</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T15:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">-0.4</measure>
+        <measure type="humidity" unit="%">80</measure>
+        <measure type="pressure" unit="hPa">1017.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="2.4" direction="327"/>
+        <air_quality>
+          <pollutant name="PM2.5">25.5</pollutant>
+          <pollutant name="PM10">11.5</pollutant>
+          <pollutant name="NO2">59.7</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T17:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">20.5</measure>
+        <measure type="humidity" unit="%">61</measure>
+        <measure type="pressure" unit="hPa">1007.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="8" direction="129"/>
+        <air_quality>
+          <pollutant name="PM2.5">15.6</pollutant>
+          <pollutant name="PM10">55.6</pollutant>
+          <pollutant name="NO2">41.4</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T22:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">25.7</measure>
+        <measure type="humidity" unit="%">41</measure>
+        <measure type="pressure" unit="hPa">1010.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="40.2" direction="144"/>
+        <air_quality>
+          <pollutant name="PM2.5">7.5</pollutant>
+          <pollutant name="PM10">22.3</pollutant>
+          <pollutant name="NO2">16</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T02:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">21</measure>
+        <measure type="humidity" unit="%">53</measure>
+        <measure type="pressure" unit="hPa">993</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="35.6" direction="106"/>
+        <air_quality>
+          <pollutant name="PM2.5">3.1</pollutant>
+          <pollutant name="PM10">56.4</pollutant>
+          <pollutant name="NO2">54.9</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T04:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">23.8</measure>
+        <measure type="humidity" unit="%">39</measure>
+        <measure type="pressure" unit="hPa">1021.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="6.6" direction="131"/>
+        <air_quality>
+          <pollutant name="PM2.5">14.1</pollutant>
+          <pollutant name="PM10">11.6</pollutant>
+          <pollutant name="NO2">49.7</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-25T08:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">24.7</measure>
+        <measure type="humidity" unit="%">55</measure>
+        <measure type="pressure" unit="hPa">1006.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="7.5" direction="23"/>
+        <air_quality>
+          <pollutant name="PM2.5">8.8</pollutant>
+          <pollutant name="PM10">54.6</pollutant>
+          <pollutant name="NO2">23.1</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+    </observations>
+  </station>
+  <station id="NO-OSL-028" country="NO">
+    <name>Oslo Gardermoen</name>
+    <coordinates lat="60.1939" lon="11.1004" altitude="208"/>
+    <hardware vendor="Gill Instruments" model="MetPak-II" since="2020-03-04"/>
+    <observations count="10">
+      <observation at="2026-05-24T03:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">9.8</measure>
+        <measure type="humidity" unit="%">64</measure>
+        <measure type="pressure" unit="hPa">998.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="25.1" direction="244"/>
+        <air_quality>
+          <pollutant name="PM2.5">7.7</pollutant>
+          <pollutant name="PM10">58.1</pollutant>
+          <pollutant name="NO2">8.2</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T08:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">28.7</measure>
+        <measure type="humidity" unit="%">65</measure>
+        <measure type="pressure" unit="hPa">1025.1</measure>
+        <measure type="precipitation" unit="mm">9.4</measure>
+        <wind speed="44.1" direction="92"/>
+        <air_quality>
+          <pollutant name="PM2.5">4.2</pollutant>
+          <pollutant name="PM10">57.3</pollutant>
+          <pollutant name="NO2">51.1</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T13:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">-0.8</measure>
+        <measure type="humidity" unit="%">61</measure>
+        <measure type="pressure" unit="hPa">1007</measure>
+        <measure type="precipitation" unit="mm">8.5</measure>
+        <wind speed="4.1" direction="335"/>
+        <air_quality>
+          <pollutant name="PM2.5">35.2</pollutant>
+          <pollutant name="PM10">49.5</pollutant>
+          <pollutant name="NO2">36.1</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T18:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">19.5</measure>
+        <measure type="humidity" unit="%">50</measure>
+        <measure type="pressure" unit="hPa">1009.1</measure>
+        <measure type="precipitation" unit="mm">10.1</measure>
+        <wind speed="43.1" direction="328"/>
+        <air_quality>
+          <pollutant name="PM2.5">40.5</pollutant>
+          <pollutant name="PM10">52.1</pollutant>
+          <pollutant name="NO2">5.6</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T23:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">27.2</measure>
+        <measure type="humidity" unit="%">39</measure>
+        <measure type="pressure" unit="hPa">1022.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="20.8" direction="169"/>
+        <air_quality>
+          <pollutant name="PM2.5">26.1</pollutant>
+          <pollutant name="PM10">35.3</pollutant>
+          <pollutant name="NO2">49.9</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-25T04:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">24.6</measure>
+        <measure type="humidity" unit="%">63</measure>
+        <measure type="pressure" unit="hPa">989.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="32.4" direction="161"/>
+        <air_quality>
+          <pollutant name="PM2.5">23.9</pollutant>
+          <pollutant name="PM10">55</pollutant>
+          <pollutant name="NO2">10.6</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T06:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">25.6</measure>
+        <measure type="humidity" unit="%">85</measure>
+        <measure type="pressure" unit="hPa">1015.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="40.2" direction="155"/>
+        <air_quality>
+          <pollutant name="PM2.5">42.9</pollutant>
+          <pollutant name="PM10">34.2</pollutant>
+          <pollutant name="NO2">8</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-25T10:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">15.7</measure>
+        <measure type="humidity" unit="%">74</measure>
+        <measure type="pressure" unit="hPa">1015</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="46.6" direction="186"/>
+        <air_quality>
+          <pollutant name="PM2.5">3.1</pollutant>
+          <pollutant name="PM10">33.6</pollutant>
+          <pollutant name="NO2">39.9</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-25T12:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">-3.3</measure>
+        <measure type="humidity" unit="%">45</measure>
+        <measure type="pressure" unit="hPa">1009.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="53.4" direction="209"/>
+        <air_quality>
+          <pollutant name="PM2.5">28.7</pollutant>
+          <pollutant name="PM10">21.5</pollutant>
+          <pollutant name="NO2">56.2</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T17:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">25.5</measure>
+        <measure type="humidity" unit="%">47</measure>
+        <measure type="pressure" unit="hPa">1020.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="7" direction="212"/>
+        <air_quality>
+          <pollutant name="PM2.5">29.6</pollutant>
+          <pollutant name="PM10">56.4</pollutant>
+          <pollutant name="NO2">11.8</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+    </observations>
+  </station>
+  <station id="PL-WAR-029" country="PL">
+    <name>Warszawa Okęcie</name>
+    <coordinates lat="52.1657" lon="20.9671" altitude="110"/>
+    <hardware vendor="Vaisala" model="AWS-2700" since="2015-09-24"/>
+    <observations count="10">
+      <observation at="2026-05-24T00:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">15.5</measure>
+        <measure type="humidity" unit="%">62</measure>
+        <measure type="pressure" unit="hPa">1026.9</measure>
+        <measure type="precipitation" unit="mm">10.9</measure>
+        <wind speed="31.4" direction="260"/>
+        <air_quality>
+          <pollutant name="PM2.5">10.3</pollutant>
+          <pollutant name="PM10">66.7</pollutant>
+          <pollutant name="NO2">10.7</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-24T05:00:00Z" sky="rain">
+        <measure type="temperature" unit="C">31.2</measure>
+        <measure type="humidity" unit="%">93</measure>
+        <measure type="pressure" unit="hPa">1019.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="16.1" direction="203"/>
+        <air_quality>
+          <pollutant name="PM2.5">36.8</pollutant>
+          <pollutant name="PM10">17.9</pollutant>
+          <pollutant name="NO2">38.1</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T08:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">2.4</measure>
+        <measure type="humidity" unit="%">74</measure>
+        <measure type="pressure" unit="hPa">1020.7</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="44.6" direction="344"/>
+        <air_quality>
+          <pollutant name="PM2.5">32.8</pollutant>
+          <pollutant name="PM10">78.2</pollutant>
+          <pollutant name="NO2">14.8</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T12:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">15.8</measure>
+        <measure type="humidity" unit="%">72</measure>
+        <measure type="pressure" unit="hPa">1013.5</measure>
+        <measure type="precipitation" unit="mm">10.7</measure>
+        <wind speed="43.4" direction="213"/>
+        <air_quality>
+          <pollutant name="PM2.5">15</pollutant>
+          <pollutant name="PM10">69</pollutant>
+          <pollutant name="NO2">49.5</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T17:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">0.4</measure>
+        <measure type="humidity" unit="%">77</measure>
+        <measure type="pressure" unit="hPa">987.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="17.4" direction="82"/>
+        <air_quality>
+          <pollutant name="PM2.5">38.3</pollutant>
+          <pollutant name="PM10">57.7</pollutant>
+          <pollutant name="NO2">21.2</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+      <observation at="2026-05-24T22:00:00Z" sky="clear">
+        <measure type="temperature" unit="C">-1.2</measure>
+        <measure type="humidity" unit="%">90</measure>
+        <measure type="pressure" unit="hPa">1018.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="36.5" direction="114"/>
+        <air_quality>
+          <pollutant name="PM2.5">24.5</pollutant>
+          <pollutant name="PM10">65.4</pollutant>
+          <pollutant name="NO2">43.3</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-25T03:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">10.4</measure>
+        <measure type="humidity" unit="%">85</measure>
+        <measure type="pressure" unit="hPa">1033.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="20.3" direction="282"/>
+        <air_quality>
+          <pollutant name="PM2.5">34.2</pollutant>
+          <pollutant name="PM10">22.6</pollutant>
+          <pollutant name="NO2">52.8</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T07:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">22.9</measure>
+        <measure type="humidity" unit="%">69</measure>
+        <measure type="pressure" unit="hPa">1021.9</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="12.8" direction="99"/>
+        <air_quality>
+          <pollutant name="PM2.5">10.5</pollutant>
+          <pollutant name="PM10">57.2</pollutant>
+          <pollutant name="NO2">15.3</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T12:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">-3.5</measure>
+        <measure type="humidity" unit="%">52</measure>
+        <measure type="pressure" unit="hPa">1012.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="8.5" direction="299"/>
+        <air_quality>
+          <pollutant name="PM2.5">32.8</pollutant>
+          <pollutant name="PM10">19.1</pollutant>
+          <pollutant name="NO2">13.5</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T16:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">13.2</measure>
+        <measure type="humidity" unit="%">71</measure>
+        <measure type="pressure" unit="hPa">1012.5</measure>
+        <measure type="precipitation" unit="mm">11.5</measure>
+        <wind speed="4.7" direction="162"/>
+        <air_quality>
+          <pollutant name="PM2.5">5.9</pollutant>
+          <pollutant name="PM10">44.4</pollutant>
+          <pollutant name="NO2">27.9</pollutant>
+        </air_quality>
+      </observation>
+    </observations>
+  </station>
+  <station id="CZ-PRA-030" country="CZ">
+    <name>Praha Ruzyně</name>
+    <coordinates lat="50.1008" lon="14.2632" altitude="380"/>
+    <hardware vendor="Davis Instruments" model="WS-2500" since="2018-11-11"/>
+    <observations count="10">
+      <observation at="2026-05-24T02:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">8.3</measure>
+        <measure type="humidity" unit="%">48</measure>
+        <measure type="pressure" unit="hPa">1032.5</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="40.2" direction="243"/>
+        <air_quality>
+          <pollutant name="PM2.5">7.8</pollutant>
+          <pollutant name="PM10">32.9</pollutant>
+          <pollutant name="NO2">18.2</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T06:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">9.1</measure>
+        <measure type="humidity" unit="%">85</measure>
+        <measure type="pressure" unit="hPa">1032.2</measure>
+        <measure type="precipitation" unit="mm">0.4</measure>
+        <wind speed="25.1" direction="276"/>
+        <air_quality>
+          <pollutant name="PM2.5">37.5</pollutant>
+          <pollutant name="PM10">35</pollutant>
+          <pollutant name="NO2">49.2</pollutant>
+        </air_quality>
+        <note>Mesure tardive suite à coupure réseau</note>
+      </observation>
+      <observation at="2026-05-24T08:00:00Z" sky="partly_cloudy">
+        <measure type="temperature" unit="C">6</measure>
+        <measure type="humidity" unit="%">76</measure>
+        <measure type="pressure" unit="hPa">994.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="33.4" direction="49"/>
+        <air_quality>
+          <pollutant name="PM2.5">43.2</pollutant>
+          <pollutant name="PM10">46.7</pollutant>
+          <pollutant name="NO2">5.4</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T11:00:00Z" sky="cloudy">
+        <measure type="temperature" unit="C">27</measure>
+        <measure type="humidity" unit="%">62</measure>
+        <measure type="pressure" unit="hPa">1026.8</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="13.4" direction="359"/>
+        <air_quality>
+          <pollutant name="PM2.5">30.2</pollutant>
+          <pollutant name="PM10">75.7</pollutant>
+          <pollutant name="NO2">46.1</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-24T16:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">21.5</measure>
+        <measure type="humidity" unit="%">37</measure>
+        <measure type="pressure" unit="hPa">989.4</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="3.5" direction="128"/>
+        <air_quality>
+          <pollutant name="PM2.5">41.3</pollutant>
+          <pollutant name="PM10">37.3</pollutant>
+          <pollutant name="NO2">29.8</pollutant>
+        </air_quality>
+        <note>Variation rapide de pression observée</note>
+      </observation>
+      <observation at="2026-05-24T20:00:00Z" sky="drizzle">
+        <measure type="temperature" unit="C">-4.4</measure>
+        <measure type="humidity" unit="%">78</measure>
+        <measure type="pressure" unit="hPa">990.9</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="0.4" direction="316"/>
+        <air_quality>
+          <pollutant name="PM2.5">34.3</pollutant>
+          <pollutant name="PM10">11.3</pollutant>
+          <pollutant name="NO2">51.7</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T00:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">24.1</measure>
+        <measure type="humidity" unit="%">54</measure>
+        <measure type="pressure" unit="hPa">1015.3</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="18.3" direction="224"/>
+        <air_quality>
+          <pollutant name="PM2.5">22.9</pollutant>
+          <pollutant name="PM10">46.4</pollutant>
+          <pollutant name="NO2">12.5</pollutant>
+        </air_quality>
+        <note>Calibrage capteur effectué la veille</note>
+      </observation>
+      <observation at="2026-05-25T03:00:00Z" sky="fog">
+        <measure type="temperature" unit="C">6</measure>
+        <measure type="humidity" unit="%">91</measure>
+        <measure type="pressure" unit="hPa">1030.7</measure>
+        <measure type="precipitation" unit="mm">11.4</measure>
+        <wind speed="51.7" direction="331"/>
+        <air_quality>
+          <pollutant name="PM2.5">39.7</pollutant>
+          <pollutant name="PM10">18.2</pollutant>
+          <pollutant name="NO2">7.3</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T07:00:00Z" sky="overcast">
+        <measure type="temperature" unit="C">2.8</measure>
+        <measure type="humidity" unit="%">82</measure>
+        <measure type="pressure" unit="hPa">1030.2</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="22.4" direction="211"/>
+        <air_quality>
+          <pollutant name="PM2.5">9.8</pollutant>
+          <pollutant name="PM10">23.9</pollutant>
+          <pollutant name="NO2">50.9</pollutant>
+        </air_quality>
+      </observation>
+      <observation at="2026-05-25T10:00:00Z" sky="thunderstorm">
+        <measure type="temperature" unit="C">19.8</measure>
+        <measure type="humidity" unit="%">71</measure>
+        <measure type="pressure" unit="hPa">1027.6</measure>
+        <measure type="precipitation" unit="mm">0</measure>
+        <wind speed="55.3" direction="281"/>
+        <air_quality>
+          <pollutant name="PM2.5">31.2</pollutant>
+          <pollutant name="PM10">26</pollutant>
+          <pollutant name="NO2">15.9</pollutant>
+        </air_quality>
+        <note>Pluviomètre nettoyé en début de mois</note>
+      </observation>
+    </observations>
+  </station>
+</weather_dataset>
