@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+
+	"github.com/efrei/weather/internal"
 )
 
 type App struct{ store *Store }
@@ -44,4 +46,32 @@ func (a *App) getStation(w http.ResponseWriter, r *http.Request) {
 	}
 
 	writeJSON(w, http.StatusOK, st)
+}
+
+func (a *App) createStation(w http.ResponseWriter, r *http.Request) {
+	defer r.Body.Close()
+
+	var st internal.Station
+
+	dec := json.NewDecoder(r.Body)
+	dec.DisallowUnknownFields()
+
+	if err := dec.Decode(&st); err != nil {
+		writeError(w, 400, "JSON invalide: "+err.Error())
+		return
+	}
+
+	if st.Id == "" {
+		writeError(w, 400, "id manquant")
+		return
+	}
+
+	if a.store.Has(st.Id) {
+		writeError(w, 409, "id "+st.Id+" déjà utilisé")
+		return
+	}
+
+	a.store.Put(st)
+
+	writeJSON(w, 201, st)
 }
