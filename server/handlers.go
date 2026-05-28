@@ -11,6 +11,11 @@ import (
 
 type App struct{ store *Store }
 
+type ErrorResponse struct {
+	Error string `json:"error"`
+	Code  string `json:"code,omitempty"`
+}
+
 func writeJSON(w http.ResponseWriter, status int, v any) {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(status)
@@ -21,8 +26,8 @@ func writeJSON(w http.ResponseWriter, status int, v any) {
 	}
 }
 
-func writeError(w http.ResponseWriter, status int, msg string) {
-	writeJSON(w, status, map[string]string{"error": msg})
+func writeError(w http.ResponseWriter, status int, code string, msg string) {
+	writeJSON(w, status, ErrorResponse{Error: msg, Code: code})
 }
 
 func (a *App) listStations(w http.ResponseWriter, r *http.Request) {
@@ -40,8 +45,7 @@ func (a *App) getStation(w http.ResponseWriter, r *http.Request) {
 	st, ok := a.store.Get(id)
 
 	if !ok {
-		writeError(w, http.StatusNotFound,
-			fmt.Sprintf("station %q introuvable", id))
+		writeError(w, http.StatusNotFound, "NOT_FOUND", fmt.Sprintf("station %q introuvable", id))
 		return
 	}
 
@@ -57,23 +61,23 @@ func (a *App) createStation(w http.ResponseWriter, r *http.Request) {
 	dec.DisallowUnknownFields()
 
 	if err := dec.Decode(&st); err != nil {
-		writeError(w, 400, "JSON invalide: "+err.Error())
+		writeError(w, http.StatusBadRequest, "BAD_JSON", "JSON invalide: "+err.Error())
 		return
 	}
 
 	if st.Id == "" {
-		writeError(w, 400, "id manquant")
+		writeError(w, http.StatusBadRequest, "BAD_JSON", "id manquant")
 		return
 	}
 
 	if a.store.Has(st.Id) {
-		writeError(w, 409, "id "+st.Id+" déjà utilisé")
+		writeError(w, http.StatusConflict, "ID_TAKEN", "id "+st.Id+" déjà utilisé")
 		return
 	}
 
 	a.store.Put(st)
 
-	writeJSON(w, 201, st)
+	writeJSON(w, http.StatusCreated, st)
 }
 
 func (a *App) updateStation(w http.ResponseWriter, r *http.Request) {
@@ -86,12 +90,12 @@ func (a *App) updateStation(w http.ResponseWriter, r *http.Request) {
 	dec.DisallowUnknownFields()
 
 	if err := dec.Decode(&st); err != nil {
-		writeError(w, 400, "JSON invalide: "+err.Error())
+		writeError(w, http.StatusBadRequest, "BAD_JSON", "JSON invalide: "+err.Error())
 		return
 	}
 
 	if st.Id != "" && st.Id != id {
-		writeError(w, 400, "incohérence id body vs URL")
+		writeError(w, http.StatusBadRequest, "INCOHERENCE_BODY_URL_ID", "incohérence id body vs URL")
 		return
 	}
 
@@ -99,9 +103,30 @@ func (a *App) updateStation(w http.ResponseWriter, r *http.Request) {
 	created := !a.store.Has(id)
 	a.store.Put(st)
 	if created {
-		writeJSON(w, 201, st)
+		writeJSON(w, http.StatusCreated, st)
 		return
 	}
 
-	writeJSON(w, 200, st)
+	writeJSON(w, http.StatusOK, st)
+}
+
+func (a *App) deleteStation(w http.ResponseWriter, r *http.Request) {
+	id := r.PathValue("id")
+
+	if !a.store.Delete(id) {
+		writeError(w, http.StatusNotFound, "NOT_FOUND", fmt.Sprintf("station %q introuvable", id))
+		return
+	}
+
+	w.WriteHeader(http.StatusNoContent)
+}
+
+func (a *App) listObservations(w http.ResponseWriter, r *http.Request) {
+	id := r.PathValue("id")
+	st, ok := a.store.Get(id)
+	if !ok {
+		writeError(w, http.StatusNotFound, "NOT_FOUND", "station introuvable")
+		return
+	}
+	writeJSON(w, http.StatusOK, st.Observations)
 }

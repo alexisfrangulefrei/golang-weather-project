@@ -32,9 +32,11 @@ func (s *Store) Get(id string) (internal.Station, bool) {
 }
 
 func (s *Store) Delete(id string) bool {
+	if _, ok := s.Stations[id]; !ok {
+		return false
+	}
 	delete(s.Stations, id)
-	_, ok := s.Stations[id]
-	return !ok
+	return true
 }
 
 func (s *Store) All() []internal.Station {
