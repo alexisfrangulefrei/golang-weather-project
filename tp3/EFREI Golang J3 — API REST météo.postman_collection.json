@@ -1,0 +1,1063 @@
+{
+  "info": {
+    "_postman_id": "9cebcc95-3f1d-4b80-bc8e-8a4856c16307",
+    "name": "EFREI Golang J3 — API REST météo",
+    "description": "Collection de démo pour le cours J3 (APIs REST en Go) — M2 Dev Manager Full Stack EFREI Bordeaux.\n\n**Prérequis :** le serveur correspondant à la slide doit tourner (`go run .`) sur `localhost:8080`.\n\n**Organisation :** un dossier par slide ou bloc thématique. Chaque requête contient les cas de réussite + les cas d'erreur attendus avec leurs statuts HTTP.\n\n**Variable :** `baseUrl` (par défaut `http://localhost:8080`). Modifiable dans les variables de la collection si vous changez de port.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "27389508"
+  },
+  "item": [
+    {
+      "name": "Slide 10 — Hello world",
+      "item": [
+        {
+          "name": "GET / (hello)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                ""
+              ]
+            },
+            "description": "Premier serveur HTTP. Réponse : `Hello, Go weather server!`. Statut **200**."
+          },
+          "response": []
+        }
+      ],
+      "description": "Premier serveur HTTP en 12 lignes. Dossier `slide_10_hello_world/`."
+    },
+    {
+      "name": "Slide 14 — ServeMux & patterns 1.22+",
+      "item": [
+        {
+          "name": "GET /health",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/health",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "health"
+              ]
+            },
+            "description": "Healthcheck simple. Réponse : `ok`. Statut **200**."
+          },
+          "response": []
+        },
+        {
+          "name": "GET /hello/Alice",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/hello/Alice",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "hello",
+                "Alice"
+              ]
+            },
+            "description": "Démontre `r.PathValue(\"name\")` Go 1.22+. Réponse : `Hello, Alice!`. Statut **200**."
+          },
+          "response": []
+        },
+        {
+          "name": "GET /hello/Bob",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/hello/Bob",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "hello",
+                "Bob"
+              ]
+            },
+            "description": "Même route, paramètre différent — montre que le pattern est bien dynamique."
+          },
+          "response": []
+        }
+      ],
+      "description": "ServeMux Go 1.22+ avec patterns de méthode et paramètres de chemin. Dossier `slide_14_servemux_patterns/`."
+    },
+    {
+      "name": "Slide 18 — Decoder / Encoder JSON",
+      "item": [
+        {
+          "name": "POST /echo (OK)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"name\":\"Alice\",\"value\":42}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/echo",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "echo"
+              ]
+            },
+            "description": "Décodage Decoder + Encoder en streaming. Statut **200**, réponse enrichie d'un `received_at`."
+          },
+          "response": []
+        },
+        {
+          "name": "POST /echo (JSON cassé → 400)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "pas du JSON",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/echo",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "echo"
+              ]
+            },
+            "description": "Body non parsable. Statut **400** + `{\"error\":\"JSON invalide: ...\"}`."
+          },
+          "response": []
+        },
+        {
+          "name": "POST /echo (champ inconnu → 400)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"name\":\"X\",\"unknown_field\":42}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/echo",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "echo"
+              ]
+            },
+            "description": "Grâce à `DisallowUnknownFields()`, un champ non déclaré dans la struct → 400."
+          },
+          "response": []
+        }
+      ],
+      "description": "Démo isolée du pattern Decoder/Encoder. Dossier `slide_18_decoder_encoder/`."
+    },
+    {
+      "name": "Slide 20 — Bootstrap & GET /stations",
+      "item": [
+        {
+          "name": "GET /stations (liste)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/stations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations"
+              ]
+            },
+            "description": "Renvoie les 30 stations chargées au bootstrap. Statut **200** + JSON array."
+          },
+          "response": []
+        }
+      ],
+      "description": "Le serveur charge le JSON au démarrage et expose la liste. Dossier `slide_20_bootstrap_get_stations/`."
+    },
+    {
+      "name": "Slide 21 — GET /stations/{id} + 404",
+      "item": [
+        {
+          "name": "GET /stations/FR-BOR-001 (OK)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/stations/FR-BOR-001",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "FR-BOR-001"
+              ]
+            },
+            "description": "Station existante. Statut **200** + objet station."
+          },
+          "response": []
+        },
+        {
+          "name": "GET /stations/ES-MAD-009 (OK)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/stations/ES-MAD-009",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "ES-MAD-009"
+              ]
+            },
+            "description": "Une autre station existante pour varier."
+          },
+          "response": []
+        },
+        {
+          "name": "GET /stations/XX-NOPE-999 (404)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/stations/XX-NOPE-999",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "XX-NOPE-999"
+              ]
+            },
+            "description": "Station inexistante. Statut **404** + `{\"error\":\"station ... introuvable\"}`."
+          },
+          "response": []
+        }
+      ],
+      "description": "Récupération d'une station par id + gestion du 404. Dossier `slide_21_get_by_id/`."
+    },
+    {
+      "name": "Slide 22 — POST /stations (201/400/409)",
+      "item": [
+        {
+          "name": "POST /stations (création → 201)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": \"FR-NICE-099\",\n  \"name\": \"Nice Côte d'Azur\",\n  \"country_code\": \"FR\",\n  \"altitude\": 4\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/stations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations"
+              ]
+            },
+            "description": "Création d'une nouvelle station. Statut **201 Created** + la station créée."
+          },
+          "response": []
+        },
+        {
+          "name": "POST /stations (vérification GET)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/stations/FR-NICE-099",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "FR-NICE-099"
+              ]
+            },
+            "description": "Vérification : la station qu'on vient de créer existe bien. Statut **200**."
+          },
+          "response": []
+        },
+        {
+          "name": "POST /stations (doublon → 409)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": \"FR-NICE-099\",\n  \"name\": \"Nice bis\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/stations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations"
+              ]
+            },
+            "description": "Tentative de recréation avec un id déjà utilisé. Statut **409 Conflict**. POST n'est pas idempotent — c'est la limite par rapport à PUT."
+          },
+          "response": []
+        },
+        {
+          "name": "POST /stations (JSON cassé → 400)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "pas du JSON",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/stations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations"
+              ]
+            },
+            "description": "Body invalide. Statut **400 Bad Request**."
+          },
+          "response": []
+        },
+        {
+          "name": "POST /stations (id manquant → 400)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Sans id\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/stations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations"
+              ]
+            },
+            "description": "JSON valide mais champ requis absent. Statut **400** avec un message de validation."
+          },
+          "response": []
+        },
+        {
+          "name": "POST /stations (champ inconnu → 400)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": \"FR-X-001\",\n  \"weird_field\": 42\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/stations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations"
+              ]
+            },
+            "description": "`DisallowUnknownFields()` rejette tout champ non déclaré. Statut **400**."
+          },
+          "response": []
+        }
+      ],
+      "description": "Création de station — 3 statuts à maîtriser : 201, 400, 409. Dossier `slide_22_post/`."
+    },
+    {
+      "name": "Slide 23 — PUT /stations/{id} (200/201)",
+      "item": [
+        {
+          "name": "PUT /stations/FR-BOR-001 (remplacement → 200)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Bordeaux Mérignac (renommée)\",\n  \"country_code\": \"FR\",\n  \"altitude\": 47\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/stations/FR-BOR-001",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "FR-BOR-001"
+              ]
+            },
+            "description": "Remplacement d'une station existante. Statut **200 OK**."
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /stations/NEW-2026 (création → 201)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Nouvelle station 2026\",\n  \"country_code\": \"FR\",\n  \"altitude\": 100\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/stations/NEW-2026",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "NEW-2026"
+              ]
+            },
+            "description": "PUT sur un id qui n'existait pas → création. Statut **201 Created**."
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /stations/NEW-2026 (rejouer → 200)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Nouvelle station 2026\",\n  \"country_code\": \"FR\",\n  \"altitude\": 100\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/stations/NEW-2026",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "NEW-2026"
+              ]
+            },
+            "description": "On rejoue le même PUT — résultat identique (PUT est idempotent). Statut **200** cette fois (la station existe déjà)."
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /stations/X (incohérence id → 400)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": \"MISMATCH-ID\",\n  \"name\": \"Test\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/stations/FR-BOR-001",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "FR-BOR-001"
+              ]
+            },
+            "description": "L'id du body ne correspond pas à l'id de l'URL. Statut **400**."
+          },
+          "response": []
+        }
+      ],
+      "description": "Remplacement/création par PUT — idempotent. Dossier `slide_23_put/`."
+    },
+    {
+      "name": "Slide 24 — DELETE /stations/{id} (204/404)",
+      "item": [
+        {
+          "name": "DELETE /stations/FR-NICE-099 (existante → 204)",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/stations/FR-NICE-099",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "FR-NICE-099"
+              ]
+            },
+            "description": "Suppression réussie. Statut **204 No Content**, pas de body. Préalable : station créée via le POST de la slide 22."
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /stations/FR-NICE-099 (déjà supprimée → 404)",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/stations/FR-NICE-099",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "FR-NICE-099"
+              ]
+            },
+            "description": "On retente la même suppression — la station n'existe plus. Statut **404**. DELETE est idempotent (état final identique) même si le statut change."
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /stations/XX-NOPE (404)",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/stations/XX-NOPE",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "XX-NOPE"
+              ]
+            },
+            "description": "Suppression d'un id inexistant. Statut **404**."
+          },
+          "response": []
+        }
+      ],
+      "description": "Suppression — 204 ou 404. Dossier `slide_24_delete/`."
+    },
+    {
+      "name": "Slide 25 — Observations & erreurs normalisées",
+      "item": [
+        {
+          "name": "GET /stations/FR-BOR-001/observations",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/stations/FR-BOR-001/observations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "FR-BOR-001",
+                "observations"
+              ]
+            },
+            "description": "Renvoie les observations de la station. Statut **200** + JSON array d'observations."
+          },
+          "response": []
+        },
+        {
+          "name": "GET /stations/XX-NOPE/observations (404)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/stations/XX-NOPE/observations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "XX-NOPE",
+                "observations"
+              ]
+            },
+            "description": "Station inconnue. Statut **404** avec **code interne** `NOT_FOUND` dans le body : `{\"error\":\"...\",\"code\":\"NOT_FOUND\"}`. Comparer avec les erreurs des slides précédentes pour montrer la normalisation."
+          },
+          "response": []
+        },
+        {
+          "name": "POST /stations (JSON cassé → 400 + code BAD_JSON)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "pas du JSON",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/stations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations"
+              ]
+            },
+            "description": "Même cas qu'en slide 22 mais avec un **code interne** dans le body."
+          },
+          "response": []
+        }
+      ],
+      "description": "Ajout de la route observations + erreurs typées. Dossier `slide_25_observations_errors/`."
+    },
+    {
+      "name": "Slides 26-27 — API complète (smoke tests)",
+      "item": [
+        {
+          "name": "01 - GET /stations (200)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/stations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "02 - GET /stations/FR-BOR-001 (200)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/stations/FR-BOR-001",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "FR-BOR-001"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "03 - GET /stations/FR-BOR-001/observations (200)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/stations/FR-BOR-001/observations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "FR-BOR-001",
+                "observations"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "04 - GET /stations/XX-NOPE (404)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/stations/XX-NOPE",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "XX-NOPE"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "05 - POST création DEMO-001 (201)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":\"DEMO-001\",\"name\":\"Démo\",\"country_code\":\"FR\",\"altitude\":42}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/stations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "06 - POST doublon DEMO-001 (409)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":\"DEMO-001\",\"name\":\"X\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/stations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "07 - POST JSON cassé (400)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "not json",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/stations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "08 - PUT /stations/DEMO-001 remplacement (200)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"name\":\"Démo v2\",\"country_code\":\"FR\",\"altitude\":50}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/stations/DEMO-001",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "DEMO-001"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "09 - PUT /stations/NEW-999 création (201)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"name\":\"Nouvelle\",\"country_code\":\"FR\",\"altitude\":100}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/stations/NEW-999",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "NEW-999"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "10 - DELETE /stations/DEMO-001 (204)",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/stations/DEMO-001",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "DEMO-001"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "11 - DELETE /stations/DEMO-001 (404)",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/stations/DEMO-001",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "DEMO-001"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "12 - DELETE /stations/NEW-999 cleanup (204)",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/stations/NEW-999",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "stations",
+                "NEW-999"
+              ]
+            }
+          },
+          "response": []
+        }
+      ],
+      "description": "Suite de 12 requêtes à enchaîner dans l'ordre. Démontre les 6 routes + tous les statuts HTTP. Équivalent du script `test_routes.sh` / `test_routes.ps1`.\n\n**Astuce démo :** Postman > Runner > drag cette collection-folder > Run → vous voyez les 12 requêtes passer avec leur statut, en couleur."
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8080"
+    }
+  ]
+}
