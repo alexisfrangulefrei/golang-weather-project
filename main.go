@@ -1,8 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
-func countObservations(stations []Station) int {
+	"github.com/efrei/weather/internal"
+)
+
+func countObservations(stations []internal.Station) int {
 	observationsCount := 0
 
 	for _, station := range stations {
@@ -12,8 +16,8 @@ func countObservations(stations []Station) int {
 	return observationsCount
 }
 
-func getBordeauxMerignacStationWithIndex(stations []Station) (Station, int) {
-	var bordeauxMerignacStation Station
+func getBordeauxMerignacStationWithIndex(stations []internal.Station) (internal.Station, int) {
+	var bordeauxMerignacStation internal.Station
 	var bordeauxMerignacStationIndex int = -1
 
 	for index, station := range stations {
@@ -33,14 +37,14 @@ func getBordeauxMerignacStationWithIndex(stations []Station) (Station, int) {
 }
 
 func main() {
-	stationsFromJson, err := LoadFromJSON("weather_data.json")
+	stationsFromJson, err := internal.LoadFromJSON("sources/weather_data.json")
 
 	if err != nil {
 		fmt.Println("Error:", err)
 		panic(err)
 	}
 
-	stationsFromXml, err := LoadFromXML("weather_data.xml")
+	stationsFromXml, err := internal.LoadFromXML("sources/weather_data.xml")
 
 	if err != nil {
 		fmt.Println("Error:", err)
@@ -59,14 +63,14 @@ func main() {
 		fmt.Println("Cohérence : KO")
 	}
 
-	jsonStationWithMaxWindGust, jsonMaxWindGust := MaxWindGust(stationsFromJson)
+	jsonStationWithMaxWindGust, jsonMaxWindGust := internal.MaxWindGust(stationsFromJson)
 	fmt.Printf("Station la plus ventée : %s (%.1f km/h)\n", jsonStationWithMaxWindGust.Id, jsonMaxWindGust)
 
 	bordeauxMerignacStation, bordeauxMerignacStationIndex := getBordeauxMerignacStationWithIndex(stationsFromJson)
-	jsonAvgTemperature := AvgTemperature(stationsFromJson[bordeauxMerignacStationIndex])
+	jsonAvgTemperature := internal.AvgTemperature(stationsFromJson[bordeauxMerignacStationIndex])
 	fmt.Printf("Temp. moyenne %s : %.1f °C\n", bordeauxMerignacStation.Name, jsonAvgTemperature)
 
-	jsonCountByCountry := CountByCountry(stationsFromJson)
+	jsonCountByCountry := internal.CountByCountry(stationsFromJson)
 
 	fmt.Print("Stations par pays : ")
 	for key, value := range jsonCountByCountry {
