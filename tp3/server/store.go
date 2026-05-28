@@ -4,20 +4,20 @@ import (
 	"maps"
 	"slices"
 
-	"github.com/efrei/weather/internal"
+	"github.com/efrei/weather/shared"
 )
 
 type Store struct {
-	Stations map[string]internal.Station
+	Stations map[string]shared.Station
 }
 
 func NewStore() *Store {
 	return &Store{
-		Stations: make(map[string]internal.Station),
+		Stations: make(map[string]shared.Station),
 	}
 }
 
-func (s *Store) Put(st internal.Station) {
+func (s *Store) Put(st shared.Station) {
 	s.Stations[st.Id] = st
 }
 
@@ -26,7 +26,7 @@ func (s *Store) Has(id string) bool {
 	return ok
 }
 
-func (s *Store) Get(id string) (internal.Station, bool) {
+func (s *Store) Get(id string) (shared.Station, bool) {
 	st, ok := s.Stations[id]
 	return st, ok
 }
@@ -39,6 +39,6 @@ func (s *Store) Delete(id string) bool {
 	return true
 }
 
-func (s *Store) All() []internal.Station {
+func (s *Store) All() []shared.Station {
 	return slices.Collect(maps.Values(s.Stations))
 }

@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/efrei/weather/internal"
+	"github.com/efrei/weather/shared"
 )
 
-func countObservations(stations []internal.Station) int {
+func countObservations(stations []shared.Station) int {
 	observationsCount := 0
 
 	for _, station := range stations {
@@ -16,8 +16,8 @@ func countObservations(stations []internal.Station) int {
 	return observationsCount
 }
 
-func getBordeauxMerignacStationWithIndex(stations []internal.Station) (internal.Station, int) {
-	var bordeauxMerignacStation internal.Station
+func getBordeauxMerignacStationWithIndex(stations []shared.Station) (shared.Station, int) {
+	var bordeauxMerignacStation shared.Station
 	var bordeauxMerignacStationIndex int = -1
 
 	for index, station := range stations {
@@ -37,14 +37,14 @@ func getBordeauxMerignacStationWithIndex(stations []internal.Station) (internal.
 }
 
 func main() {
-	stationsFromJson, err := internal.LoadFromJSON("sources/weather_data.json")
+	stationsFromJson, err := shared.LoadFromJSON("shared/sources/weather_data.json")
 
 	if err != nil {
 		fmt.Println("Error:", err)
 		panic(err)
 	}
 
-	stationsFromXml, err := internal.LoadFromXML("sources/weather_data.xml")
+	stationsFromXml, err := shared.LoadFromXML("shared/sources/weather_data.xml")
 
 	if err != nil {
 		fmt.Println("Error:", err)
@@ -63,14 +63,14 @@ func main() {
 		fmt.Println("Cohérence : KO")
 	}
 
-	jsonStationWithMaxWindGust, jsonMaxWindGust := internal.MaxWindGust(stationsFromJson)
+	jsonStationWithMaxWindGust, jsonMaxWindGust := shared.MaxWindGust(stationsFromJson)
 	fmt.Printf("Station la plus ventée : %s (%.1f km/h)\n", jsonStationWithMaxWindGust.Id, jsonMaxWindGust)
 
 	bordeauxMerignacStation, bordeauxMerignacStationIndex := getBordeauxMerignacStationWithIndex(stationsFromJson)
-	jsonAvgTemperature := internal.AvgTemperature(stationsFromJson[bordeauxMerignacStationIndex])
+	jsonAvgTemperature := shared.AvgTemperature(stationsFromJson[bordeauxMerignacStationIndex])
 	fmt.Printf("Temp. moyenne %s : %.1f °C\n", bordeauxMerignacStation.Name, jsonAvgTemperature)
 
-	jsonCountByCountry := internal.CountByCountry(stationsFromJson)
+	jsonCountByCountry := shared.CountByCountry(stationsFromJson)
 
 	fmt.Print("Stations par pays : ")
 	for key, value := range jsonCountByCountry {
@@ -80,7 +80,7 @@ func main() {
 	/*
 
 		// Tests de la partie C
-		stationsFromJson, err := LoadFromJSON("weather_data.json")
+		stationsFromJson, err := LoadFromJSON("shared/sources/weather_data.json")
 
 		if err != nil {
 			fmt.Println("Error:", err)
@@ -91,7 +91,7 @@ func main() {
 		fmt.Println(len(stationsFromJson[0].Observations))
 
 		// Tests de la partie D
-		stationsFromXml, err := LoadFromXML("weather_data.xml")
+		stationsFromXml, err := LoadFromXML("shared/sources/weather_data.xml")
 
 		if err != nil {
 			fmt.Println("Error:", err)

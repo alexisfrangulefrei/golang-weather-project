@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/efrei/weather/internal"
+	"github.com/efrei/weather/shared"
 )
 
 type App struct{ store *Store }
@@ -55,7 +55,7 @@ func (a *App) getStation(w http.ResponseWriter, r *http.Request) {
 func (a *App) createStation(w http.ResponseWriter, r *http.Request) {
 	defer r.Body.Close()
 
-	var st internal.Station
+	var st shared.Station
 
 	dec := json.NewDecoder(r.Body)
 	dec.DisallowUnknownFields()
@@ -84,7 +84,7 @@ func (a *App) updateStation(w http.ResponseWriter, r *http.Request) {
 	defer r.Body.Close()
 
 	id := r.PathValue("id")
-	var st internal.Station
+	var st shared.Station
 
 	dec := json.NewDecoder(r.Body)
 	dec.DisallowUnknownFields()

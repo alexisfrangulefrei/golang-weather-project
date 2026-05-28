@@ -1,4 +1,4 @@
-package internal
+package shared
 
 func FilterByCountry(stations []Station, ISOCode string) []Station {
 	var filteredStationsByCountry []Station

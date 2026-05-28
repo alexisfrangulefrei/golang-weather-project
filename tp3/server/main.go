@@ -5,11 +5,11 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/efrei/weather/internal"
+	"github.com/efrei/weather/shared"
 )
 
 func main() {
-	stations, err := internal.LoadFromJSON("sources/weather_data.json")
+	stations, err := shared.LoadFromJSON("shared/sources/weather_data.json")
 
 	if err != nil {
 		log.Fatal(err)
@@ -29,10 +29,11 @@ func main() {
 	})
 	mux.HandleFunc("GET /stations", app.listStations)
 	mux.HandleFunc("GET /stations/{id}", app.getStation)
+	mux.HandleFunc("GET /stations/{id}/observations", app.listObservations)
 	mux.HandleFunc("POST /stations", app.createStation)
 	mux.HandleFunc("PUT /stations/{id}", app.updateStation)
 	mux.HandleFunc("DELETE /stations/{id}", app.deleteStation)
-	mux.HandleFunc("GET /stations/{id}/observations", app.listObservations)
 
+	log.Println("serveur sur :8080")
 	log.Fatal(http.ListenAndServe(":8080", mux))
 }
