@@ -1,7 +1,7 @@
  ## Lancer le serveur
- Il faut être placé dans le dossier "/weather/tp3/server" puis exécuter la commmande suivante :
+ Il faut être placé dans le dossier "/weather" à la racine du projet puis exécuter la commmande suivante :
  ```bash
-go run .
+go run ./tp3/server
  ```
 
 ## Les 7 routes et leurs codes statut attendus
