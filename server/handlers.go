@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"log"
 	"net/http"
 )
@@ -30,4 +31,17 @@ func (a *App) listStations(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		log.Fatal(err)
 	}
+}
+
+func (a *App) getStation(w http.ResponseWriter, r *http.Request) {
+	id := r.PathValue("id")
+	st, ok := a.store.Get(id)
+
+	if !ok {
+		writeError(w, http.StatusNotFound,
+			fmt.Sprintf("station %q introuvable", id))
+		return
+	}
+
+	writeJSON(w, http.StatusOK, st)
 }
