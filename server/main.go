@@ -9,19 +9,24 @@ import (
 )
 
 func main() {
-	mux := http.NewServeMux()
-	mux.HandleFunc("GET /health", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintln(w, "ok")
-	})
-	http.ListenAndServe(":8080", mux)
-
 	stations, err := internal.LoadFromJSON("sources/weather_data.json")
+
 	if err != nil {
 		log.Fatal(err)
 	}
+
 	store := NewStore()
 	for _, s := range stations {
 		store.Put(s)
 	}
 	log.Printf("bootstrap : %d stations chargées", len(stations))
+
+	app := &App{store: store}
+
+	mux := http.NewServeMux()
+	mux.HandleFunc("GET /health", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprintln(w, "ok")
+	})
+	mux.HandleFunc("GET /stations", app.listStations)
+	log.Fatal(http.ListenAndServe(":8080", mux))
 }
