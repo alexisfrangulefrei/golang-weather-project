@@ -20,6 +20,6 @@ go run .
 La collection Postman utilisée pour tester les différentes routes se situe dans le fichier "EFREI Golang J3 — API REST météo.postman_collection.json" à la racine du dossier "/tp3".
 
 ## Captures d'écran du Runner Postman montrant 13/13 OK
-[image](capture_ecran_postman_runner_00_04.png)
-[image](capture_ecran_postman_runner_05_09.png)
-[image](capture_ecran_postman_runner_08_12.png)
+![image](capture_ecran_postman_runner_00_04.png)
+![image](capture_ecran_postman_runner_05_09.png)
+![image](capture_ecran_postman_runner_08_12.png)
